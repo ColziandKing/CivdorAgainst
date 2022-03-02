@@ -23,7 +23,7 @@
 			    "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.", "Can embark and move over Coasts and Oceans immediately", "+[100]% defensive strength for cities", "Visible to others", "May choose [3] additional belief(s) of any type when [founding] a religion", "Land units may cross [Mountain] tiles after the first [Worker] is earned", "Units ending their turn on [Mountain] tiles take [1] damage", ["Double quantity of [Incense] produced", "May convert Incense to Myrrh or Frankincense luxury resources", "[+100]% Natural religion spread [in all cities]"],
 			    },
 	{
-		"name": "Mod Land",
+		"name": "Ood Land",
 		"leaderName": "Tsugumi",
 		"adjective": ["Otaku"],
                 "startBias": ["Coast"],
@@ -68,32 +68,6 @@
 		"uniques": ["[+3 Culture] from every [Plantation]","[+1 Gold] from every [Plantation]","[+1 Food] from every [Plantation]","[+30]% Strength <vs [Barbarian] units>"],
 
 		"cities": ["Salumi","Libro-Saldos","Medellin","Cali","Villavicencio", "Santa Marianna", "Buenaventura", "San Andres", "Peacesee", "Sofia", "Leticia"]
-	},
-			    {
-		"name": "Mandalore",
-		"leaderName": "Din Djarin",
-		"adjective": ["Mandalorian"],
-		"startBias": ["Grassland"],
-  	        "preferredVictoryType": "Diplomatic",
-
-		"startIntroPart1": "Yo, Mando. So now, your gonna rule over all your people of Mandalore? Ever since you defeated Moff Gideon and won the darksaber, Bo Katan Kryze now wants you lead the new Mandalore.",
-		"startIntroPart2": "Mando, I mean Din Djarin. Are you up for the battle to restore Mandalore?",
-
-		"declaringWar": "I could bring you in warm or I could bring you in cold?",
-		"attacked": "Dang Ferrick!",
-		"defeated":  "I guess this is the way.",
-		"introduction":  "Greetings! I am a Mandalorian, you can hire us for work.",
-		"neutralHello": "I'm on a bounty.",
-		"hateHello": "You have the guts to meet me?!",
-		"tradeRequest": "Hey, I think we can agree on this",
-
-	        "outerColor": [3,21,0],
-		"innerColor": [2,5,0],
-
-		"uniqueName": "This is the Way",
-		"uniques": ["[-76]% maintenance costs <for [Water] units>", ["77% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
-			"[-35]% maintenance costs <for [Land] units>"], "60% chance of capturing defeated Barbarian naval units and earning 25 Gold"],
-		"cities": ["Sundari", "Keldabe", "Enceri", "Norg Bral", "Clan Wren", "Kryze", "Bralsin", "Shuror"],
 	},
 			    //City States
 	{
