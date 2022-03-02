@@ -23,7 +23,7 @@
 			    "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.", "Can embark and move over Coasts and Oceans immediately", "+[100]% defensive strength for cities", "Visible to others", "May choose [3] additional belief(s) of any type when [founding] a religion", "Land units may cross [Mountain] tiles after the first [Worker] is earned", "Units ending their turn on [Mountain] tiles take [1] damage", ["Double quantity of [Incense] produced", "May convert Incense to Myrrh or Frankincense luxury resources", "[+100]% Natural religion spread [in all cities]"],
 			    },
 	{
-		"name": "Ood Land",
+		"name": "Mod Land",
 		"leaderName": "Tsugumi",
 		"adjective": ["Otaku"],
                 "startBias": ["Coast"],
