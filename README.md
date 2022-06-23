@@ -1,2 +1,2 @@
-# 3unciv
-Experimental
+# CivsAgainst
+For vanilla version
