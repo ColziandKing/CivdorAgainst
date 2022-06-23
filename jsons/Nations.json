@@ -5,7 +5,6 @@
 		"adjective": ["Colziand"],
           	"startBias": ["Coast","Oasis"],
 		"preferredVictoryType": "Diplomatic",
-	  	"favoredReligion": "Christianity",
 	  
 		"startIntroPart1": "Oh Raymond! You who formed a nation of people for God to saved, glorious you are. Thanks be to the mighty Father.",
                 "startIntroPart2": "Will you once more rule the world for the Lord's desire.",
@@ -31,7 +30,6 @@
 		"adjective": ["Fullysian"],
 		"startBias": ["Grassland","Forest"],
   	        "preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "Feared woman with the strength like men. You Ullysia from Colziand is fierce in battles but at what cost? You do it so that it will end, war destroys each other but peace helps each other.",
 		"startIntroPart2": "See? War will once more wage, do what must be done.",
@@ -61,7 +59,6 @@
 		"adjective": ["Swells"],
 		"startBias": ["Coast"],
   	        "preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "Grand governor of the suzerain Colziand. We are honored of your presence and the leader is please to meet you again since college.",
 		"startIntroPart2": "Dear queen of Colziand, we are in no position to ask you but guide us.",
