@@ -2,7 +2,7 @@
   {
 		"name": "Paper Maker",
 		"replaces": "Library",
-		"uniqueTo": "China",
+		"uniqueTo": "Fullysia",
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
@@ -11,7 +11,7 @@
   {
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
-		"uniqueTo": "Aztecs",
+		"uniqueTo": "Suzainswellia",
 		"food": 2,
 		"production": 1,
 		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
@@ -24,7 +24,7 @@
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
 		"cost": 65,
-		"uniqueTo": "Babylon",
+		"uniqueTo": "Colziand",
 		"cityStrength": 6,
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
@@ -34,7 +34,7 @@
   {
 		"name": "Krepost",
 		"replaces": "Barracks",
-		"uniqueTo": "Russia",
+		"uniqueTo": "Fullysia",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
@@ -44,7 +44,7 @@
   {
 		"name": "Burial Tomb",
 		"replaces": "Temple",
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Suzainswellia",
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"culture": 2,
@@ -56,7 +56,7 @@
 	{
 		"name": "Mud Pyramid Mosque",
 		"replaces": "Temple",
-		"uniqueTo": "Songhai",
+		"uniqueTo": "Colziand",
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"culture": 4,
@@ -66,7 +66,7 @@
   {
 		"name": "Bazaar",
 		"replaces": "Market",
-		"uniqueTo": "Arabia",
+		"uniqueTo": "Fullysia",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
@@ -78,7 +78,7 @@
   {
 		"name": "Longhouse",
 		"replaces": "Workshop",
-		"uniqueTo": "Iroquois",
+		"uniqueTo": "Suzainswellia",
 		"cost": 100,
 		"maintenance": 2,
 		"production": 2,
@@ -90,7 +90,7 @@
   {
 		"name": "Wat",
 		"replaces": "University",
-		"uniqueTo": "Siam",
+		"uniqueTo": "Colziand",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
@@ -104,7 +104,7 @@
 		"name": "Mughal Fort",
 		"cost": 150,
 		"replaces": "Castle",
-		"uniqueTo": "India",
+		"uniqueTo": "Fullysia",
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"culture": 2,
@@ -116,7 +116,7 @@
   {
 		"name": "Satrap's Court",
 		"replaces": "Bank",
-		"uniqueTo": "Persia",
+		"uniqueTo": "Colziand",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
@@ -124,5 +124,5 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
-	},
+	}
   ]
