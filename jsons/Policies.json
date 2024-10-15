@@ -195,7 +195,8 @@
                 		"name": "Planned Economy",
 				"requires": ["Theocracy"],
                 		"uniques": [
-                    			"[-15]% [Science] from every [Shrine]","[-15]% [Science] from every [Temple]"
+                    			"Free [Inquisitor] appears","[-15]% [Science] from every [Shrine]",
+					"[+15]% Strength <for [All] units> <when fighting in [Desert] tiles>"
                 			],
                 		"row": 3,
                 		"column": 2
@@ -209,7 +210,7 @@
 			},
 			{
 				"name": "Piety Complete",
-				"uniques": ["Free [Great Prophet] appears", "Free Social Policy", "[+3 Culture] from every [Holy site]"]
+				"uniques": ["Free [Great Prophet] appears", "[+3 Culture] from every [Holy site]"]
 			}
 		]
 	},
@@ -440,33 +441,33 @@
 				"name": "Secularism",
 				"uniques": ["[+2 Science] from every specialist [in all cities]"],
 				"row": 1,
-				"column": 3
-			},
-				{
-				"name": "Sovereignty",
-				"uniques": ["[+1 Gold] from all [Science] buildings"],
-				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Humanism",
 				"uniques": ["[Great Scientist] is earned [25]% faster"],
-				"requires": ["Secularism"],
-				"row": 2,
+				"row": 1,
 				"column": 3
 			},
-			{
-				"name": "Free Thought",
-				"uniques": ["[+1 Science] from every [Trading post]", "[+17]% [Science] from every [University]"],
-				"row": 2,
+				{
+				"name": "Sovereignty",
+				"uniques": ["[+1 Gold] from all [Science] buildings"],
+				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Scientific Revolution",
 				"uniques": ["Science gained from research agreements [+50]%"],
-				"requires": ["Sovereignty","Humanism"],
-				"row": 3,
+				"requires": ["Secularism","Humanism"],
+				"row": 2,
 				"column": 1
+			},
+			{
+				"name": "Free Thought",
+				"requires": ["Humanism","Sovereignty"],
+				"uniques": ["[+1 Science] from every [Trading post]", "[+17]% [Science] from every [University]"],
+				"row": 2,
+				"column": 5
 			},
 			{
 				"name": "Christ",
