@@ -1,5 +1,18 @@
 # CivsAgainst
 For vanilla version
+
+
+{
+				"name": "Weather Engineering",
+				"requires": ["Humanism","Free Thought"],
+				"uniques": [
+					"[+2 Gold, +2 Science] [in all cities]",
+					"[+10]% growth [in all cities] <during a Golden Age>"
+				],
+				"row": 3,
+				"column": 5
+			},
+
 [
     {
         "name": "Tradition",
