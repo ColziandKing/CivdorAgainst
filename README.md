@@ -1,6 +1,13 @@
 # CivsAgainst
 For vanilla version
 
+PolicyIcons/Fine Arts
+  rotate: false
+  xy: 1698, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 
 {
 				"name": "Weather Engineering",
