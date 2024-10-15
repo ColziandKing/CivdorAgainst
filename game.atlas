@@ -17,13 +17,6 @@ PolicyIcons/Christ
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Sharia
-  rotate: false
-  xy: 760, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 PolicyIcons/Promised Land
   rotate: false
   xy: 868, 4
