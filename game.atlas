@@ -545,7 +545,7 @@ PolicyIcons/Voting Rights
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Weather Engineering
+PolicyIcons/Fine Arts
   rotate: false
   xy: 668, 738
   size: 50, 50
@@ -834,13 +834,6 @@ PolicyIcons/Elite Forces
 PolicyIcons/Entrapreneurship
   rotate: false
   xy: 1640, 436
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Fine Arts
-  rotate: false
-  xy: 1698, 436
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
