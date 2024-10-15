@@ -1,6 +1,14 @@
 # CivsAgainst
 For vanilla version
 
+PolicyIcons/Planned Economy
+  rotate: false
+  xy: 1092, 1286
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+
 PolicyIcons/Fine Arts
   rotate: false
   xy: 1698, 436
