@@ -660,6 +660,16 @@
                 "row": 2,
                 "column": 3
             },
+            {
+                "name": "Communism",
+                "requires": ["Socialism"],
+                "uniques": [
+                    "[-15]% [Science] from every [Shrine]","[-25]% Unhappiness from [Population] [in all cities]"
+                ],
+                "row": 3,
+                "column": 2
+            },
+	    
         {
             "name": "Five-Year Plan",
             "requires": ["Workers' Faculties"],
@@ -667,17 +677,6 @@
             "row": 3,
             "column": 4
         },
-            {
-                "name": "Communism",
-                "requires": ["Socialism"],
-                "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
-                ],
-                "row": 3,
-                "column": 2
-            },
         {
             "name": "Order Complete",
 			"uniques": ["[+1 Food, +1 Production, +1 Science, +1 Gold, +1 Culture] [in all cities]","[+10]% unhappiness from the number of cities"]
