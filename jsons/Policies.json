@@ -664,7 +664,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[-15]% [Science] from every [Shrine]","[-25]% Unhappiness from [Population] [in all cities]"
+                    "[-15]% [Science] from every [Temple]","[+50]% Unhappiness from [Population] [in all cities]"
                 ],
                 "row": 3,
                 "column": 2
