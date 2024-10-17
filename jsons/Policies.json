@@ -72,7 +72,7 @@
 			},
 			{
 				"name": "Collective Rule",
-				"uniques": ["[+50]% Production when constructing [Worker] units [in capital]", "Free [Settler] appears"],
+				"uniques": ["[+50]% Production when constructing [Settler] units [in capital]", "Free [Settler] appears"],
 				"requires": ["Republic"],
 				"row": 2,
 				"column": 1
