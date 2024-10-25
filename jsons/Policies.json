@@ -92,7 +92,7 @@
             },
             {
                 "name": "Tradition Complete",
-                "uniques": ["Free Social Policy",
+                "uniques": [
                     "[+15]% growth [in all cities]",
                     "Provides a [Aqueduct] in your first [8] cities for free",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
@@ -188,7 +188,7 @@
             {
                 "name": "Liberty Complete",
                 "uniques": [
-                    "Free Great Person","Free Social Policy",
+                    "Free Great Person",
                     "[+33]% Production when constructing [National Epic] wonders [in all cities]",
                     "[+33]% Production when constructing [National College] wonders [in all cities]",
                     "[+33]% Production when constructing [Circus Maximus] wonders [in all cities]",
@@ -309,7 +309,7 @@
 	},
             {
                 "name": "Honor Complete",
-                "uniques": ["Free Social Policy",
+                "uniques": [
                     "[+10]% [Food] [in all cities]",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
@@ -402,7 +402,7 @@
 			},
             {
                 "name": "Piety Complete",
-                "uniques": ["Free Social Policy",
+                "uniques": [
                     "Free [Great Prophet] appears",
                     "[+1 Food, +3 Culture] from every [Holy site]",
                     "Provides a [Garden] in your first [4] cities for free",
@@ -486,7 +486,7 @@
         },
             {
                 "name": "Patronage Complete",
-                "uniques": ["Free Social Policy",
+                "uniques": [
                     "[+50]% [Culture] from City-States",
                     "[+50]% [Faith] from City-States",
                     "[+50]% [Food] from City-States",
@@ -503,7 +503,7 @@
             "Only available <after adopting [Piety]>",
             "Comment [Unlocks [Big Ben]]"
         ],
-        "era": "Renaissance era",
+        "era": "Ancient era",
         "policies": [
             {
                 "name": "Silk Road",
@@ -578,7 +578,7 @@
         },
             {
                 "name": "Commerce Complete",
-                "uniques": ["Free Social Policy",
+                "uniques": [
                     "[2] free [Great Merchant] units appear",
                     "[+1 Food] from every [Trading post]",
                     "[+1 Food] from every [Market]",
@@ -592,16 +592,16 @@
         "name": "Exploration",
         "uniques": [
             "[+1] Movement <for [{Military} {Water}] units>","Free Social Policy",
-            "Only available <after adopting [Piety]>",
+            "Only available <after adopting [Piety]>","Free Social Policy",
             "[+1] Sight <for [{Military} {Water}] units>",
             "Comment [Unlocks [The Louvre]]",
             "Comment [Unlocks [Conquistador]]"
         ],
-        "era": "Renaissance era",
+        "era": "Ancient era",
         "policies": [
             {
                 "name": "Naval Tradition",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Happiness, +1 Culture] from every [Lighthouse]",
                     "[+1 Happiness, +1 Culture] from every [Harbor]",
                     "[+1 Happiness, +1 Culture] from every [Seaport]"
@@ -611,7 +611,7 @@
             },
             {
                 "name": "Maritime Infrastructure",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+3 Production] [in all coastal cities]",
                     "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
                     "[+50]% Production when constructing [Harbor] buildings [in all cities]",
@@ -622,7 +622,7 @@
             },
             {
                 "name": "Colonialism",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Gain a free [Workshop] [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>"
                 ],
@@ -631,7 +631,7 @@
             },
             {
                 "name": "Navigation School",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+2 Science] [in all coastal cities]",
                     "[+10]% Strength <for [Water] units>"
                 ],
@@ -641,7 +641,7 @@
             },
 		{
                 "name": "Resettlements",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+4] population [in this city] <upon founding a city>",
                     "Gain a free [Workshop] [in this city] <upon founding a city>",
                     "Gain a free [Monument] [in this city] <upon founding a city>",
@@ -655,7 +655,7 @@
             },
 	{
             "name": "Conservation",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[+20]% Great Person generation [in all cities]"
             ],
 		"requires": ["Naval Tradition"],
@@ -664,7 +664,7 @@
         },
             {
                 "name": "Treasure Fleets",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [resource]> <in tiles without [Improvement]>",
                     "[+1 Gold, +1 Production, +1 Food] from every [Ocean]"
                 ],
@@ -685,8 +685,8 @@
     },
 	{
         "name": "Aesthetics",
-        "era": "Renaissance era",
-        "uniques": [
+        "era": "Ancient era",
+        "uniques": ["Free Social Policy",
             "[Great Artist] is earned [25]% faster","Free Social Policy",
             "Only available <after adopting [Piety]>",
             "Comment [Unlocks [Uffizi]]"
@@ -694,7 +694,7 @@
         "policies": [
             {
                 "name": "Free Mind",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[Great Artist] is earned [33]% faster",
                     "[+20]% [Gold] <in cities with a [Theatre]>",
                     "[+20]% [Gold] <in cities with a [Museum]>",
@@ -705,7 +705,7 @@
             },
 		{
                 "name": "Cultural Centers",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
                     "[+100]% Production when constructing [Opera House] buildings [in all cities]",
                     "[+100]% Production when constructing [Museum] buildings [in all cities]",
@@ -719,7 +719,7 @@
             },
             {
                 "name": "Cultural Exchange",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Free [Great Artist] appears",
                     "[+1 Culture] from every [Great Improvement]",
                     "[+1 Culture] from every [Trading post]",
@@ -733,7 +733,7 @@
             },
             {
                 "name": "Artistic Genius",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Free [Great Artist] appears",
                     "[+1 Science] from every [Museum]",
                     "[+1 Science] from every [Amphitheater]",
@@ -748,7 +748,7 @@
             },
 		{
                 "name": "Fine Arts",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Gain a free [Theatre] [in all cities]"
                 ],
                 "requires": ["Artistic Genius","Cultural Exchange"],
@@ -757,7 +757,7 @@
             },
             {
                 "name": "Flourishing of the Arts",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Culture] from every [Theatre]",
                     "[+1 Culture] from every [World Wonder]",
                     "Empire enters golden age"
@@ -768,11 +768,10 @@
             },
             {
                 "name": "Aesthetics Complete",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+100]% Production when constructing [Worker] units [in all cities]",
                     "[+1 Culture] from every [Theatre]",
                     //need implement "Shows Hidden Antiquity Sites"
-                    "Free Social Policy",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
@@ -780,17 +779,16 @@
     },
     {
         "name": "Rationalism",
-        "era": "Classical era",
+        "era": "Ancient era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster","Free Social Policy",
             "Only available <after adopting [Piety]>",
-		"Only available <before adopting [World]>",
             "Comment [Unlocks [Porcelain Tower]]"
         ],
         "policies": [
 		{
                 "name": "Sovereignty",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Gold] from every [Library]",
                     "[+1 Gold] from every [University]",
                     "[+1 Gold] from every [Observatory]",
@@ -802,7 +800,7 @@
             },
             {
                 "name": "Free Thought",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Science] from every [Trading post]",
                     "[+1 Science] from every [Chateau]",
                     "[+1 Science] from every [Kasbah]",
@@ -815,7 +813,7 @@
             },
             {
                 "name": "Humanity",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+50]% Production when constructing [Library] buildings [in all cities]",
                     "[+50]% Production when constructing [University] buildings [in all cities]",
                     "[+50]% Production when constructing [Observatory] buildings [in all cities]",
@@ -827,7 +825,7 @@
             },
         {
             "name": "Optimization Imperative",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "Each city founded increases culture cost of policies [33]% less than normal",
                 "Empire enters golden age"
             ],
@@ -837,7 +835,7 @@
         },
             {
                 "name": "Scientific Revolution",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Free [Great Scientist] appears"
                 ],
                 "requires": ["Free Thought","Sovereignty"],
@@ -846,7 +844,7 @@
             },
             {
                 "name": "Secularity",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+2 Science] from every specialist [in all cities]"
                 ],
 		    "requires": ["Humanity"],
@@ -855,7 +853,7 @@
             },
 		{
 				"name": "Christianity",
-				"uniques": ["[+2 Production, +2 Food, +2 Gold, +2 Faith, +2 Culture, +2 Science, +2 Happiness] per [5] population [in all cities]",
+				"uniques": ["[+2 Production, +2 Food, +2 Gold, +2 Faith, +2 Culture, +2 Science, +2 Happiness] per [5] population [in all cities]","Free Social Policy",
 					"[Faith] cost of purchasing [Missionary] units [-20]%","[2] free [Missionary] units appear"],
 				"requires": ["Secularity"],
 				"row": 3,
@@ -872,15 +870,14 @@
     },
   {
         "name": "World",
-        "era": "Industrial era",
-        "uniques": [
-            "[-1 Culture] [in all cities]", "Only available <before adopting [Freedom]>",
-		"Only available <before adopting [Piety]>", "Only available <before adopting [Rationalism]>"
+        "era": "Ancient era",
+        "uniques": ["Free Social Policy",
+            "[-1 Culture] [in all cities]"
         ],
         "policies": [
             {
                 "name": "Populism",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+25]% construction time for [All] improvements",
                     "Free [Worker] appears"
                 ],
@@ -889,7 +886,7 @@
             },
   {
             "name": "Mysticism",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[-20]% Great Person generation [in all cities]"
             ],
             "row": 1,
@@ -897,7 +894,7 @@
         },
         {
             "name": "Free Religion",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[-50]% Production when constructing [Mechanized Infantry] units [in capital]",
                 "Free [Settler] appears"
             ],
@@ -907,7 +904,7 @@
         },
         {
             "name": "Dictatorship of the Proletariat",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "Each city founded increases culture cost of policies [11]% less than normal",
                 "Empire enters golden age"
             ],
@@ -917,7 +914,7 @@
         },
 	{
             "name": "Planned Economy",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[-1 Production] [in all cities]",
                 "[-5]% Production when constructing [All] buildings [in all cities]"
             ],
@@ -927,7 +924,7 @@
         },
         {
             "name": "Scorched Earth",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[-15]% [Gold] [in all cities connected to capital]",
                 "[-1 Happiness] [in all cities connected to capital]",
                 "[+5]% Unhappiness from [Population] [in all non-occupied cities]"
@@ -946,7 +943,7 @@
 },
 {
     "name": "Recorded History",
-    "era": "Renaissance era",
+    "era": "Ancient era",
     "uniques": [
         "[+1 Culture] [in all cities]", "Free Social Policy", 
             "Only available <after adopting [Piety]>","Comment [Unlocks [The Great Library]]"
@@ -954,7 +951,7 @@
     "policies": [
         {
             "name": "Games and Recreation",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[-25]% construction time for [All] improvements",
                 "Free [Worker] appears"
             ],
@@ -963,7 +960,7 @@
         },
 	{
             "name": "Medieval Faires",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[+1 Production] [in all cities]",
                 "[+5]% Production when constructing [All] buildings [in all cities]"
             ],
@@ -972,7 +969,7 @@
         },
         {
             "name": "Natural History",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[+50]% Production when constructing [Scout] units [in capital]",
                 "Free [Settler] appears"
             ],
@@ -981,7 +978,7 @@
         },
 	{
             "name": "Opera and Ballet",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[+20]% Great Person generation [in all cities]"
             ],
             "requires": ["Games and Recreation"],
@@ -990,7 +987,7 @@
         },
         {
             "name": "Professional Sports",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "[+15]% [Gold] [in all cities connected to capital]",
                 "[+1 Happiness] [in all cities connected to capital]",
                 "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
@@ -1001,7 +998,7 @@
         },
         {
             "name": "Mass Media",
-            "uniques": [
+            "uniques": ["Free Social Policy",
                 "Each city founded increases culture cost of policies [33]% less than normal",
                 "Empire enters golden age"
             ],
@@ -1019,7 +1016,7 @@
 },
     {
         "name": "Order",
-        "era": "Classical era",
+        "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Kremlin]]",
@@ -1030,7 +1027,7 @@
         "policies": [
             {
                 "name": "Double Agents",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[-100]% enemy spy effectiveness [in all cities connected to capital]",
                     //Unique for increasing chance of killing spy
                 ],
@@ -1039,7 +1036,7 @@
             },
             {
                 "name": "Young Pioneers",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Happiness] from every [Workshop]",
                     "[+1 Happiness] from every [Factory]",
                     "[+1 Happiness] from every [Solar Plant]",
@@ -1051,7 +1048,7 @@
             },
             {
                 "name": "Skyscrapers",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[Gold] cost of purchasing [All] buildings [-50]%"
                 ],
             		"requires": ["Young Pioneers","Workers' Faculties"],
@@ -1060,7 +1057,7 @@
             },
             {
                 "name": "Academy of Sciences",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Happiness] from every [Observatory]",
                     "[+1 Happiness] from every [Public School]",
                     "[+1 Happiness] from every [Research Lab]"
@@ -1071,7 +1068,7 @@
             },
             {
                 "name": "Cultural Revolution",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+10]% [Culture] [in all cities] <while the empire is happy>",
                     "Empire enters golden age"
                 ],
@@ -1081,7 +1078,7 @@
             },
             {
                 "name": "Patriotic War",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
                     "[+50]% XP gained from combat <for [non-[Air]] units>"
                 ],
@@ -1091,7 +1088,7 @@
             },
             {
                 "name": "Workers' Faculties",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+25]% [Science] <in cities with a [Factory]>",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
@@ -1100,7 +1097,7 @@
             },
             {
                 "name": "Five-Year Plan",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+2 Production] [in all cities]",
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]"
@@ -1111,7 +1108,7 @@
             },
             {
                 "name": "Communism",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+10]% [Science] [in all cities]"
                 ],
             		"requires": ["Skyscrapers","Academy of Sciences","Cultural Revolution"],
@@ -1120,7 +1117,7 @@
             },
             {
                 "name": "Iron Curtain",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+11 Production] from each Trade Route",
                     "[+11 Food] from each Trade Route",
                     "[+11 Science] from each Trade Route",
@@ -1132,7 +1129,7 @@
             },
             {
                 "name": "People's Army",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+2 Science, +2 Culture] from every [Military Academy]",
@@ -1143,7 +1140,7 @@
             },
             {
                 "name": "Spaceflight Pioneers",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Free [Great Scientist] appears",
                     "Free [Great Engineer] appears",
                     //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
@@ -1161,7 +1158,7 @@
     },
     {
         "name": "Freedom",
-        "era": "Classical era",
+        "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Statue of Liberty]]",
@@ -1174,7 +1171,7 @@
         "policies": [
             {
                 "name": "Avant Garde",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+25]% Great Person generation [in all cities]"
                 ],
                 "row": 1,
@@ -1182,7 +1179,7 @@
             },
             {
                 "name": "Creative Expression",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+2 Culture] from every [Landmark]"
                 ],
                 "row": 1,
@@ -1190,7 +1187,7 @@
             },
             {
                 "name": "Covert Action",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+100]% spy effectiveness [City-States]",
                     //Unique for rigging elections
                     "Gain an extra spy"
@@ -1200,7 +1197,7 @@
             },
             {
                 "name": "Capitalism",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Happiness] from every [Market]",
                     "[+1 Happiness] from every [Bank]",
                     "[+1 Happiness] from every [Stock Exchange]"
@@ -1211,7 +1208,7 @@
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
                     "[+50]% Golden Age length"
                 ],
@@ -1221,7 +1218,7 @@
             },
             {
                 "name": "Urbanization",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+2 Production, +2 Science] from every [Windmill]",
                     "[+2 Production, +2 Science] from every [Workshop]",
                     "[+2 Production, +2 Science] from every [Factory]"
@@ -1232,7 +1229,7 @@
             },
             {
                 "name": "Universal Healthcare",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+100]% Production when constructing [Medical Lab] buildings [in all cities]",
                     "[+100]% Production when constructing [Hospital] buildings [in all cities]",
                     "[+3 Science] from every [Medical Lab]",
@@ -1244,7 +1241,7 @@
             },
             {
                 "name": "New Deal",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+5 Science] from every [Academy]",
                     "[+5 Production] from every [Manufactory]",
                     "[+5 Production] from every [Citadel]",
@@ -1259,7 +1256,7 @@
             },
             {
                 "name": "Media Culture",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+20]% [Culture] <in cities with a [Broadcast Tower]>"
                 ],
             		"requires": ["Arsenal of Democracy","Capitalism","Universal Suffrage"],
@@ -1268,7 +1265,7 @@
             },
             {
                 "name": "Treaty Organization",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1 Production, +1 Gold] from every specialist [in all cities]"
                 ],
             		"requires": ["Urbanization","Capitalism","Universal Suffrage"],
@@ -1277,7 +1274,7 @@
             },
             {
                 "name": "Arsenal of Democracy",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+25]% Production when constructing [Air] units [in all cities]",
                     "[+25]% Production when constructing [Nuclear Missile] units [in all cities]",
                     "[+25]% Strength for cities",
@@ -1290,7 +1287,7 @@
             },
             {
                 "name": "Space Procurements",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "May buy [Spaceship part] units with [Gold] [in all cities]"
                 ],
             		"requires": ["Urbanization","Universal Suffrage"],
@@ -1306,7 +1303,7 @@
     },
     {
         "name": "Autocracy",
-        "era": "Classical era",
+        "era": "Ancient era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Prora]]",
@@ -1317,7 +1314,7 @@
         "policies": [
             {
                 "name": "Fascism",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+12 Happiness]"
                 ],
                 "row": 1,
@@ -1325,7 +1322,7 @@
             },
             {
                 "name": "Futurism",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Engineer] unit>",
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great General] unit>"
@@ -1335,7 +1332,7 @@
             },
             {
                 "name": "Industrial Espionage",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+100]% spy effectiveness [in all cities]"
                 ],
                 "row": 1,
@@ -1343,7 +1340,7 @@
             },
             {
                 "name": "Lightning Warfare",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+1] Movement <for [Gunpowder] units>",
                     "[+1] Movement <for [Armored] units>",
                     "[+1] Movement <for [Great General] units>",
@@ -1355,7 +1352,7 @@
             },
             {
                 "name": "Police State",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+2 Happiness] from every [Courthouse]",
                     "[+2 Happiness] from every [Police Station]",
                     "[+2 Happiness] from every [Constabulary]",
@@ -1369,7 +1366,7 @@
             },
             {
                 "name": "Third Alternative",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Double quantity of [Horses] produced",
                     "Double quantity of [Iron] produced",
                     "Double quantity of [Coal] produced",
@@ -1384,7 +1381,7 @@
             },
             {
                 "name": "Mobilization",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[Gold] cost of purchasing [All] units [-25]%",
                     "[-25]% maintenance costs <for [All] units>"
                 ],
@@ -1394,7 +1391,7 @@
             },
             {
                 "name": "Total War",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+25]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] Experience [in all cities]"
                 ],
@@ -1404,7 +1401,7 @@
             },
             {
                 "name": "Cult of Personality",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "[+20]% [Culture] [in all cities]"
                 ],
             		"requires": ["Lightning Warfare","Police State","Third Alternative"],
@@ -1413,7 +1410,7 @@
             },
             {
                 "name": "Gunboat Diplomacy",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Resting point for Influence with City-States is increased by [25]"
                 ],
             		"requires": ["Mobilization","Police State","Third Alternative"],
@@ -1423,7 +1420,7 @@
 		
             {
                 "name": "Iron Fist",
-                "uniques": [
+                "uniques": ["Free Social Policy",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
