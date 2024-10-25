@@ -1020,9 +1020,7 @@
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Kremlin]]",
-            "Only available <after adopting [Tradition]>",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <after adopting [Tradition]>"
         ],
         "policies": [
             {
@@ -1162,11 +1160,7 @@
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Statue of Liberty]]",
-            "Only available <after adopting [Liberty]>",
-            "Only available <before adopting [Autocracy]>",
-		"Only available <after adopting [Liberty]>",
-		"Only available <before adopting [World]>",
-            "Only available <before adopting [Order]>"
+            "Only available <after adopting [Liberty]>"
         ],
         "policies": [
             {
@@ -1307,9 +1301,7 @@
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Prora]]",
-            "Only available <after adopting [Honor]>",
-            "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <after adopting [Honor]>"
         ],
         "policies": [
             {
