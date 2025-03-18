@@ -21,8 +21,7 @@
                 "name": "Democracy",
                 "uniques": [
                     "[+1 Food, +1 Production] from every specialist [in all cities]",
-                    "Provides [1] [Level 1 Ideology]",
-                    "Provides [1] [Policies]"
+			"Provides [1] [Policies]"
                 ],
                 "row": 1,
                 "column": 3
@@ -31,8 +30,7 @@
                 "name": "Communism",
                 "uniques": [
                     "Each city founded increases Science cost of Technologies [20]% less than normal",
-                    "Provides [1] [Level 1 Ideology]",
-                    "Provides [1] [Policies]"
+			"Provides [1] [Policies]"
                 ],
                 "row": 1,
                 "column": 5
@@ -41,9 +39,7 @@
             "name": "Radicalism",
             "uniques": [
 		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>","Provides [1] [Policies]"
+                    "Provides [1] [Policies]"
             ],
             "row": 2,
             "column": 2
@@ -53,7 +49,6 @@
                 "uniques": [
                     "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
 			"Allied City-States will occasionally gift Great People",
-                    "Provides [1] [Level 1 Ideology]",
 			"Provides [1] [Policies]"
                 ],
 		"row": 1,
@@ -63,9 +58,7 @@
                 "name": "Liberalism",
                 "uniques": [
 			"Gain a free [Amphitheater] [in all cities]","[+1] Movement <for [Melee] units>","[+1] Movement <for [Civilian] units>",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>"
+			"Provides [1] [Policies]"
                 ],
                 "row": 2,
                 "column": 4
