@@ -571,6 +571,7 @@
                 "name": "Resettlements",
                 "uniques": [
                     "[+3] population [in this city] <upon founding a city>",
+			"[-3] population [in capital] <upon founding a city>",
                     "Gain a free [Workshop] [in this city] <upon founding a city>",
                     "Gain a free [Monument] [in this city] <upon founding a city>",
                     "Gain a free [Granary] [in this city] <upon founding a city>",
@@ -990,7 +991,7 @@
                     "[+2 Production, +2 Science] from every [Factory]"
                 ],
                 "row": 2,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Capitalism",
@@ -1000,7 +1001,7 @@
                     "[+1 Happiness] from every [Stock Exchange]"
                 ],
                 "row": 2,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Universal Suffrage",
@@ -1008,7 +1009,7 @@
                     "[-50]% Unhappiness from [Specialists] [in all cities]","[+100]% Yield from every [Great Improvement]"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 6
             },
             {
                 "name": "Universal Healthcare",
@@ -1020,16 +1021,7 @@
                     "[+5 Food] [in capital]"
                 ],
                 "row": 2,
-                "column": 7
-            },
-            {
-                "name": "Their Finest Hour",
-                "uniques": [
-                    "[+10]% Strength <for [Military] units>",
-                    "Empire enters golden age","Provides [1] [Policies]"
-                ],
-                "row": 2,
-                "column": 9
+                "column": 8
             },
 		{
                 "name": "New Deal",
@@ -1301,28 +1293,14 @@
 		{
                 "name": "Constitution",
                 "uniques": [
-			"Gain a free [Amphitheater] [in all cities]","[+1] Movement <for [Melee] units>","[+1] Movement <for [Civilian] units>"
+			"Gain a free [Amphitheater] [in all cities]",
+                    "[+1 Happiness] [in all cities connected to capital]",
+                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+			"Provides [1] [Policies]"
                 ],
-                "row": 1,
-                "column": 4
+                "row": 2,
+                "column": 3
             },
-    {
-        "name": "Distributed Sovereignty",
-        "uniques": [
-        "[+1 Production, +1 Science] from every [Amphitheater]",
-        "[+1 Production, +1 Science] from every [Museum]",
-        "[+1 Production, +1 Science] from every [Opera House]",
-        "[+1 Production, +1 Science] from every [Broadcast Tower]",
-        "[+1 Production, +1 Science] from every [Great Work]",
-        "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
-        "[+50]% Production when constructing [Opera House] buildings [in all cities]",
-        "[+50]% Production when constructing [Museum] buildings [in all cities]",
-        "[+50]% Production when constructing [Broadcast Tower] buildings [in all cities]",
-		"Provides [1] [Policies]"
-        ],
-        "row": 2,
-        "column": 3
-    },
 {
         "name": "Planned Economy",
         "uniques": [
@@ -1345,6 +1323,59 @@
         "row": 3,
         "column": 1
     },
+            {
+                "name": "Their Finest Hour",
+                "uniques": [
+                    "[+10]% Strength <for [Military] units>",
+                    "Empire enters golden age","Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+		{
+                "name": "Socialism",
+                "uniques": [
+			"[+10]% [Culture] [in capital] <while the empire is happy>",
+                    "[+2 Food] [in capital]","[-5 Food] [in all cities]","Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Ideology Complete",
+                "uniques": [
+			"[+44]% Strength for cities <when defending>"
+                ]
+            }
+        ]
+    },	
+	{
+        "name": "World",
+        "era": "Modern era",
+        "uniques": [
+            "[+3 Culture] from every [Palace]", "Free Social Policy","Remove [Despotism] <hidden from users>",
+            "[-25]% Culture cost of natural border growth [in all cities]","Adopt [State Property]",
+            "Provides [1] [Policies]"
+        ],
+        "policies": [
+            {
+                "name": "Merchant Navy",
+                "uniques": [
+                    "[-25]% construction time for [All] improvements",
+                    "Free [Worker] appears"
+                ],
+                "row": 1,
+                "column": 1
+            },
+  {
+            "name": "Mysticism",
+            "uniques": [
+		    "May choose [1] additional [Pantheon] beliefs when [founding] a religion","Gain a free [Stadium] [in holy cities]",
+                    "Gain a free [Pantheon] belief <after founding a religion>","Provides [1] [Policies]"
+            ],
+            "row": 2,
+            "column": 2
+        },
 	{
             "name": "Optimization Imperative",
             "uniques": [
@@ -1358,21 +1389,47 @@
             "row": 3,
             "column": 3
         },
-  {
-            "name": "Mysticism",
-            "uniques": [
-		    "May choose [1] additional [Pantheon] beliefs when [founding] a religion","Gain a free [Stadium] [in holy cities]",
-                    "Gain a free [Pantheon] belief <after founding a religion>","Provides [1] [Policies]"
-            ],
-            "row": 3,
-            "column": 5
-        },
-            {
-                "name": "Ideology Complete",
+		{
+                "name": "Trade Unions",
                 "uniques": [
-			"[+44]% Strength for cities <when defending>","Provides [1] [Policies]"
+                    "[+20]% Great Person generation [in all cities]","Provides [1] [Policies]"
+                ],
+		"requires": ["Merchant Navy"],
+                "row": 1,
+                "column": 3
+            },
+    {
+        "name": "Distributed Sovereignty",
+        "uniques": [
+        "[+1 Production, +1 Science] from every [Amphitheater]",
+        "[+1 Production, +1 Science] from every [Museum]",
+        "[+1 Production, +1 Science] from every [Opera House]",
+        "[+1 Production, +1 Science] from every [Broadcast Tower]",
+        "[+1 Production, +1 Science] from every [Great Work]",
+        "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
+        "[+50]% Production when constructing [Opera House] buildings [in all cities]",
+        "[+50]% Production when constructing [Museum] buildings [in all cities]",
+        "[+50]% Production when constructing [Broadcast Tower] buildings [in all cities]",
+		"Provides [1] [Policies]"
+        ],
+        "row": 2,
+        "column": 4
+    },
+            {
+                "name": "Free Religion",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]","Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "World Complete",
+                "uniques": [
+                    "[+20]% growth [in all cities]",
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
-    },		
+    },	
 ]
