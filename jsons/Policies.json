@@ -1353,16 +1353,16 @@
         "name": "World",
         "era": "Modern era",
         "uniques": [
-            "[+3 Culture] from every [Palace]", "Free Social Policy","Remove [Despotism] <hidden from users>",
-            "[-25]% Culture cost of natural border growth [in all cities]","Adopt [State Property]",
-            "Provides [1] [Policies]"
+            "[+3 Culture] from every [Governor's Mansion]", "Free Social Policy","Remove [Despotism] <hidden from users>",
+            "[-25]% Culture cost of natural border growth [in all cities]","Adopt [State Property]" <hidden from users>",
+            "Unavailable","Provides [1] [Policies]"
         ],
         "policies": [
             {
                 "name": "Merchant Navy",
                 "uniques": [
                     "[-25]% construction time for [All] improvements",
-                    "Free [Worker] appears"
+                    "Free [Worker] appears","Provides [1] [Policies]"
                 ],
                 "row": 1,
                 "column": 1
@@ -1373,31 +1373,9 @@
 		    "May choose [1] additional [Pantheon] beliefs when [founding] a religion","Gain a free [Stadium] [in holy cities]",
                     "Gain a free [Pantheon] belief <after founding a religion>","Provides [1] [Policies]"
             ],
-            "row": 2,
-            "column": 2
+            "row": 1,
+            "column": 5
         },
-	{
-            "name": "Optimization Imperative",
-            "uniques": [
-		"[+5 Science] [in all cities]",
-		"[+50]% Yield from every [Land Trade Route (Food)]",
-        "[+50]% Yield from every [Land Trade Route (Production)]",
-		"Provides [1] [Policies]",
-        "[+50]% Yield from every [Sea Trade Route (Food)] <hidden from users>",
-        "[+50]% Yield from every [Sea Trade Route (Production)] <hidden from users>",
-            ],
-            "row": 3,
-            "column": 3
-        },
-		{
-                "name": "Trade Unions",
-                "uniques": [
-                    "[+20]% Great Person generation [in all cities]","Provides [1] [Policies]"
-                ],
-		"requires": ["Merchant Navy"],
-                "row": 1,
-                "column": 3
-            },
     {
         "name": "Distributed Sovereignty",
         "uniques": [
@@ -1413,16 +1391,45 @@
 		"Provides [1] [Policies]"
         ],
         "row": 2,
-        "column": 4
+        "column": 1
     },
             {
                 "name": "Free Religion",
                 "uniques": [
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]","Provides [1] [Policies]"
                 ],
-                "row": 3,
+                "row": 2,
+                "column": 3
+            },
+		{
+                "name": "Trade Unions",
+                "uniques": [
+                    "[+20]% Great Person generation [in all cities]","Provides [1] [Policies]"
+                ],
+                "row": 2,
                 "column": 5
             },
+        {
+            "name": "Sharia",
+            "uniques": [
+		"[Faith] cost of purchasing [Inquisitor] units [-50]%","Free [Atomic Bomb] appears","[-5 Happiness] per [5] population [in all cities]","Provides [1] [Policies]"
+	],
+            "row": 3,
+            "column": 1
+        },
+	{
+            "name": "Optimization Imperative",
+            "uniques": [
+		"[+5 Science] [in all cities]",
+		"[+50]% Yield from every [Land Trade Route (Food)]",
+        "[+50]% Yield from every [Land Trade Route (Production)]",
+		"Provides [1] [Policies]",
+        "[+50]% Yield from every [Sea Trade Route (Food)] <hidden from users>",
+        "[+50]% Yield from every [Sea Trade Route (Production)] <hidden from users>",
+            ],
+            "row": 3,
+            "column": 5
+        },
             {
                 "name": "World Complete",
                 "uniques": [
