@@ -233,7 +233,6 @@
                 "uniques": [
                     "Empire enters golden age","[+100]% XP gained from combat <for [All] units> <in [Friendly Land] tiles>"
                 ],
-		"requires": ["Warrior Code","Military Tradition","Discipline"],
                 "row": 2,
                 "column": 4
             },
@@ -244,7 +243,6 @@
                     "[+2 Happiness] from every [Courthouse]",
 			"Provides [1] [Policies]"
                 ],
-                "requires": ["Nationalism"],
                 "row": 3,
                 "column": 1
             },
@@ -258,7 +256,6 @@
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Nationalism"],
                 "row": 3,
                 "column": 4
             },
@@ -267,7 +264,6 @@
                 "uniques": [
                     "[+1 Happiness] from every [Castle]","[+1 Happiness] from every [Arsenal]","[+1 Happiness] from every [Military Base]","Provides [1] [Policies]"
                 ],
-                "requires": ["Nationalism"],
                 "row": 3,
                 "column": 7
             },
@@ -328,9 +324,6 @@
                     "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
                     "Gain a free [Enhancer] belief <after founding a religion>"
                 ],
-                "requires": [
-                    "Organized Religion"
-                ],
                 "row": 2,
                 "column": 1
             },
@@ -339,7 +332,6 @@
 				"uniques": [
 					"[+100]% Strength for cities <with a garrison> <when defending>","Free [Settler] appears","Provides [1] [Policies]"
 				],
-                		"requires": ["Reformation","Religious Tolerance"],
 				"row": 3,
 				"column": 3
 			},
@@ -350,7 +342,6 @@
                     "[+25]% [Science] from every [Grand Temple]",
                     "[+2 Science] from every [Temple]"
                 ],
-                "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 5
             },
@@ -404,7 +395,6 @@
                 "uniques": [
                     "Allied City-States provide [Science] equal to [25]% of what they produce for themselves","Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Diplomacy","Consulates"],
                 "row": 3,
                 "column": 1
             },
@@ -414,7 +404,6 @@
                     "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States"
                 ],
-                "requires": ["Philanthropy"],
                 "row": 2,
                 "column": 3
             },
@@ -424,7 +413,6 @@
                     "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
 			"Allied City-States will occasionally gift Great People","Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Diplomacy","United Front"],
                 "row": 3,
                 "column": 5
             },
@@ -475,7 +463,6 @@
                     "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]",
 			"Provides [3] [Nutmeg]","Provides [3] [Cloves]","Provides [3] [Pepper]"
                 ],
-                "requires": ["Silk Road"],
                 "row": 2,
                 "column": 4
             },
@@ -487,7 +474,6 @@
                     "Provides [2] [Trade Route]",
 			"Provides [1] [Policies]"
                 ],
-                "requires": ["Economic Union"],
                 "row": 3,
                 "column": 1
             },
@@ -503,7 +489,6 @@
                     "[+2 Science] from every [Bank]",
                     "[+2 Science] from every [Stock Exchange]","Provides [1] [Policies]"
                 ],
-                "requires": ["Economic Union"],
                 "row": 3,
                 "column": 3
             },
@@ -513,7 +498,6 @@
                     "[+1 Food, +4 Gold] from every [Customs house]",
                     "[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]","Provides [1] [Policies]"
                 ],
-                "requires": ["Economic Union"],
                 "row": 3,
                 "column": 5
             },
@@ -580,7 +564,6 @@
                     "[+2 Science] [in all coastal cities]",
                     "[+10]% Strength <for [Water] units>"
                 ],
-                "requires": ["Maritime Infrastructure","Naval Tradition"],
                 "row": 2,
                 "column": 3
             },
@@ -594,7 +577,6 @@
                     "Gain a free [Library] [in this city] <upon founding a city>",
                     "Gain a free [Aqueduct] [in this city] <upon founding a city>"
                 ],
-		"requires": ["Colonialism"],
                 "row": 2,
                 "column": 5
             },
@@ -605,7 +587,6 @@
                     "[+1 Gold, +1 Production, +1 Food] from every [Ocean]","Provides [3] [Glass]",
 	    "Provides [3] [Jewelry]","Provides [3] [Porcelain]","Provides [1] [Policies]"
                 ],
-                "requires": ["Navigation School"],
                 "row": 3,
                 "column": 3
             },
@@ -683,7 +664,6 @@
                     "[+3 Science] from every [Great Work]",
                     "[+2 Science] from every [Landmark]"
                 ],
-                "requires": ["Free Mind","Cultural Centers"],
                 "row": 2,
                 "column": 3
             },
@@ -692,7 +672,6 @@
                 "uniques": [
                     "[50]% of excess happiness converted to [Culture]","Provides [1] [Policies]"
                 ],
-                "requires": ["Artistic Genius","Cultural Exchange"],
                 "row": 3,
                 "column": 1
             },
@@ -703,7 +682,6 @@
                     "[+1 Culture] from every [World Wonder]",
                     "Empire enters golden age","Provides [1] [Policies]"
                 ],
-                "requires": ["Artistic Genius","Cultural Exchange"],
                 "row": 3,
                 "column": 3
             },
@@ -772,7 +750,6 @@
                 "uniques": [
                     "Free [Great Scientist] appears"
                 ],
-                "requires": ["Free Thought","Sovereignty"],
                 "row": 2,
                 "column": 3
             },
@@ -781,7 +758,6 @@
                 "uniques": [
                     "[+2 Science] from every specialist [in all cities]"
                 ],
-		    "requires": ["Humanity"],
                 "row": 2,
                 "column": 5
             },
@@ -789,7 +765,6 @@
 				"name": "Christianity",
 				"uniques": ["[+2 Production, +2 Food, +2 Gold, +2 Faith, +2 Culture, +2 Science, +2 Happiness] per [5] population [in all cities]","Empire enters golden age",
 					"[Faith] cost of purchasing [Missionary] units [-80]%","[2] free [Missionary] units appear","Provides [1] [Policies]"],
-				"requires": ["Sovereignty","Secularity"],
 				"row": 3,
 				"column": 3
 			},
@@ -864,7 +839,6 @@
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-50]%"
                 ],
-                "requires": ["Party Leadership","Socialist Realism"],
                 "row": 2,
                 "column": 2
             },
@@ -875,7 +849,6 @@
                     "[+1 Happiness] from every [Public School]",
                     "[+1 Happiness] from every [Research Lab]"
                 ],
-                "requires": ["Patriotic War","Socialist Realism"],
                 "row": 2,
                 "column": 4
             },
@@ -885,7 +858,6 @@
                     "[+10]% [Culture] [in all cities] <while the empire is happy>",
                     "Empire enters golden age"
                 ],
-                "requires": ["Patriotic War","Double Agents"],
                 "row": 2,
                 "column": 6
             },
@@ -895,7 +867,6 @@
                     "[+25]% [Science] <in cities with a [Factory]>",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
-                "requires": ["Double Agents","Young Pioneers"],
                 "row": 2,
                 "column": 8
             },
@@ -906,7 +877,6 @@
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]","Provides [1] [Policies]"
                 ],
-                "requires": ["Skyscrapers"],
                 "row": 3,
                 "column": 1
             },
@@ -915,7 +885,6 @@
                 "uniques": [
                     "[+10]% [Science] [in all cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Academy of Sciences","Skyscrapers"],
                 "row": 3,
                 "column": 3
             },
@@ -927,7 +896,6 @@
                     "[+11 Food] from every [Sea Trade Route (Food)]",
                     "[+11 Production] from every [Sea Trade Route (Production)]","Provides [1] [Policies]"
                 ],
-                "requires": ["Cultural Revolution","Academy of Sciences"],
                 "row": 3,
                 "column": 5
             },
@@ -939,7 +907,6 @@
                     "[+2 Science, +2 Culture] from every [Military Academy]",
                     "[+2 Science, +2 Culture] from every [Armory]","Provides [1] [Policies]"
                 ],
-                "requires": ["Workers Faculties","Cultural Revolution"],
                 "row": 3,
                 "column": 7
             },
@@ -950,7 +917,6 @@
                     "Free [Great Engineer] appears","Provides [1] [Policies]",
                     //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
                 ],
-                "requires": ["Workers Faculties"],
                 "row": 3,
                 "column": 9
             },
@@ -1023,7 +989,6 @@
                     "[+2 Production, +2 Science] from every [Workshop]",
                     "[+2 Production, +2 Science] from every [Factory]"
                 ],
-                "requires": ["Creative Expression"],
                 "row": 2,
                 "column": 2
             },
@@ -1034,7 +999,6 @@
                     "[+1 Happiness] from every [Bank]",
                     "[+1 Happiness] from every [Stock Exchange]"
                 ],
-                "requires": ["Creative Expression","Civil Society"],
                 "row": 2,
                 "column": 4
             },
@@ -1043,7 +1007,6 @@
                 "uniques": [
                     "[-50]% Unhappiness from [Specialists] [in all cities]","[+100]% Yield from every [Great Improvement]"
                 ],
-                "requires": ["Civil Society","Volunteer Army"],
                 "row": 2,
                 "column": 6
             },
@@ -1056,7 +1019,6 @@
                     "[+3 Science] from every [Hospital]",
                     "[+5 Food] [in capital]"
                 ],
-                "requires": ["Volunteer Army"],
                 "row": 2,
                 "column": 8
             },
@@ -1071,7 +1033,6 @@
                     "[+5 Gold] from every [Customs house]",
                     "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Sacred Grove]","Provides [1] [Policies]"
                 ],
-                "requires": ["Avant Garde", "Urbanization"],
                 "row": 3,
                 "column": 1
             },
@@ -1080,7 +1041,6 @@
                 "uniques": [
                     "[+20]% [Culture] <in cities with a [Broadcast Tower]>","Provides [1] [Policies]"
                 ],
-                "requires": ["Urbanization","Capitalism"],
                 "row": 3,
                 "column": 3
             },
@@ -1089,7 +1049,6 @@
                 "uniques": [
                     "[+1 Production, +1 Gold] from every specialist [in all cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Civil Society"],
                 "row": 3,
                 "column": 5
             },
@@ -1102,7 +1061,6 @@
                     "[Fighter] units gain the [Dogfighting I] promotion",
                     "All newly-trained [Fighter] units [in all cities] receive the [Dogfighting I] promotion","Provides [1] [Policies]"
                 ],
-                "requires": ["Universal Suffrage","Universal Healthcare"],
                 "row": 3,
                 "column": 7
             },
@@ -1111,7 +1069,6 @@
                 "uniques": [
                     "May buy [Spaceship part] units with [Gold] [in all cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Covert Action","Universal Healthcare"],
                 "row": 3,
                 "column": 9
             },
@@ -1186,7 +1143,6 @@
                     "[+1] Movement <for [Worker] units>",
 			"Comment [BLITZKRIEG!!!]"
                 ],
-                "requires": ["Militarism","Fascism"],
                 "row": 2,
                 "column": 2
             },
@@ -1200,7 +1156,6 @@
                     "[+50]% Production when constructing [Police Station] buildings [in all cities]",
                     "[+50]% Production when constructing [Constabulary] buildings [in all cities]"
                 ],
-                "requires": ["Fascism","Mobilization"],
                 "row": 2,
                 "column": 4
             },
@@ -1211,7 +1166,6 @@
 			"[+1 Food, +2 Science, +2 Culture] from every [Citadel]",
                     "[+10] HP when healing <for [Military] units>"
 				],
-                "requires": ["Mobilization","Futurism"],
 				"row": 2,
 				"column": 6
 			},
@@ -1226,7 +1180,6 @@
                     "Double quantity of [Uranium] produced",
                     "[+5 Science, +5 Food] [in capital]"
                 ],
-                "requires": ["Futurism","Industrial Espionage"],
                 "row": 2,
                 "column": 8
             },
@@ -1236,7 +1189,6 @@
                     "[+25]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] Experience [in all cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Militarism","Lightning Warfare"],
                 "row": 3,
                 "column": 1
             },
@@ -1245,7 +1197,6 @@
                 "uniques": [
                     "[+20]% [Culture] [in all cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Fascism","Police State","Lightning Warfare"],
                 "row": 3,
                 "column": 3
             },
@@ -1254,7 +1205,6 @@
                 "uniques": [
                     "Resting point for Influence with City-States is increased by [25]","Provides [1] [Policies]"
                 ],
-                "requires": ["Mobilization","Elite Forces","Police State"],
                 "row": 3,
                 "column": 5
             },
@@ -1267,7 +1217,6 @@
                     "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
                     "[+50]% XP gained from combat <for [non-[Air]] units>","Provides [1] [Policies]"
                 ],
-                "requires": ["Futurism","Elite Forces","Third Alternative"],
                 "row": 3,
                 "column": 7
             },
@@ -1276,7 +1225,6 @@
                 "uniques": [
                     "[+25]% Strength <for [All] units> <for [50] turns>","Provides [1] [Policies]"
                 ],
-                "requires": ["Industrial Espionage","Third Alternative"],
                 "row": 3,
                 "column": 9
             },
@@ -1338,7 +1286,6 @@
                 "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
                 "Free [Worker] appears","Provides [1] [Policies]"
             ],
-        "requires": ["Nazism"],
             "row": 2,
             "column": 1
         },
@@ -1356,7 +1303,6 @@
         "[+50]% Production when constructing [Broadcast Tower] buildings [in all cities]",
 		"Provides [1] [Policies]"
         ],
-        "requires": ["Democracy"],
         "row": 2,
         "column": 3
     },
@@ -1367,7 +1313,6 @@
         "[-50]% Unhappiness from [Population] [in all cities]",
 		"Provides [1] [Policies]"
         ],
-        "requires": ["Dictatorship of the Proletariat"],
         "row": 2,
         "column": 5
     },
@@ -1380,7 +1325,6 @@
         "[Armor] units gain the [Volley] promotion",
 	    "Provides [1] [Policies]"
         ],
-        "requires": ["Populism"],
         "row": 3,
         "column": 1
     },
@@ -1394,7 +1338,6 @@
         "[+50]% Yield from every [Sea Trade Route (Food)] <hidden from users>",
         "[+50]% Yield from every [Sea Trade Route (Production)] <hidden from users>",
             ],
-            "requires": ["Distributed Sovereignty"],
             "row": 3,
             "column": 3
         },
@@ -1404,7 +1347,6 @@
 		    "May choose [1] additional [Pantheon] beliefs when [founding] a religion","Gain a free [Stadium] [in holy cities]",
                     "Gain a free [Pantheon] belief <after founding a religion>","Provides [1] [Policies]"
             ],
-        "requires": ["Planned Economy"],
             "row": 3,
             "column": 5
         },
