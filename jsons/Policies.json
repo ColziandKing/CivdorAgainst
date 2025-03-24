@@ -784,6 +784,7 @@
         "uniques": [
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Young Pioneers]","Adopt [Patriotic War]",
             "Comment [Unlocks [Kremlin]]", "Adopt [Socialist Realism]",
+		"Adopt [Dictatorship of the Proletariat]","Adopt [Planned Economy]","Adopt [Socialism]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>","Provides [1] [Policies]"
         ],
@@ -935,6 +936,7 @@
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Avant Garde]",
             "Comment [Unlocks [Statue of Liberty]]", "Adopt [Civil Society]","Remove [Slavery] <hidden from users>",
             "Only available <before adopting [Autocracy]>","Adopt [Volunteer Army]",
+		"Adopt [Democracy]","Adopt [Constitution]","Adopt [Their Finest Hour]",
             "Only available <before adopting [Order]>","Provides [1] [Policies]",
         ],
         "policies": [
@@ -1085,7 +1087,7 @@
         "era": "Industrial era",
         "uniques": [
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Militarism]","Adopt [Fascism]",
-            "Comment [Unlocks [Prora]]","Adopt [Mobilization]",
+            "Comment [Unlocks [Prora]]","Adopt [Mobilization]","Adopt [Nazism]","Adopt [Populism]","Adopt [Scorched Earth]",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>","Provides [1] [Policies]"
         ],
@@ -1355,7 +1357,7 @@
         "uniques": [
             "[+3 Culture] from every [Governor's Mansion]", "Free Social Policy","Remove [Despotism] <hidden from users>",
             "[-25]% Culture cost of natural border growth [in all cities]","Adopt [State Property] <hidden from users>",
-            "Unavailable","Provides [1] [Policies]"
+            "Provides [1] [Policies]"
         ],
         "policies": [
             {
