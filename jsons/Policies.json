@@ -5,7 +5,7 @@
         "uniques": [
             "[+3 Culture] from every [Palace]", "Free Social Policy","Remove [Despotism] <hidden from users>",
             "[-25]% Culture cost of natural border growth [in all cities]","Adopt [Aristocracy]", 
-            "Comment [Unlocks [Hanging Gardens]]","Provides [1] [Policies]","Adopt [Bureaucracy] <hidden from users>",
+            "Comment [Unlocks [Hanging Gardens]]","Provides [1] [Policies]",
         ],
         "policies": [
             {
@@ -934,7 +934,7 @@
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Avant Garde]",
             "Comment [Unlocks [Statue of Liberty]]", "Adopt [Civil Society]","Remove [Slavery] <hidden from users>",
             "Only available <before adopting [Autocracy]>","Adopt [Volunteer Army]",
-            "Only available <before adopting [Order]>","Provides [1] [Policies]","Adopt [Emancipation] <hidden from users>"
+            "Only available <before adopting [Order]>","Provides [1] [Policies]",
         ],
         "policies": [
             {
@@ -1251,7 +1251,7 @@
 
             "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Order]>",
             "[+1 Gold] from every specialist [in all cities] <after adopting [Order]>",
-		"Provides [1] [Policies]"
+		"Unavailable","Provides [1] [Policies]"
         ],
         "policies": [
 	{
