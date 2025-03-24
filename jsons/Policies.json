@@ -990,7 +990,7 @@
                     "[+2 Production, +2 Science] from every [Factory]"
                 ],
                 "row": 2,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Capitalism",
@@ -1000,7 +1000,7 @@
                     "[+1 Happiness] from every [Stock Exchange]"
                 ],
                 "row": 2,
-                "column": 4
+                "column": 3
             },
             {
                 "name": "Universal Suffrage",
@@ -1008,7 +1008,7 @@
                     "[-50]% Unhappiness from [Specialists] [in all cities]","[+100]% Yield from every [Great Improvement]"
                 ],
                 "row": 2,
-                "column": 6
+                "column": 5
             },
             {
                 "name": "Universal Healthcare",
@@ -1020,7 +1020,16 @@
                     "[+5 Food] [in capital]"
                 ],
                 "row": 2,
-                "column": 8
+                "column": 7
+            },
+            {
+                "name": "Their Finest Hour",
+                "uniques": [
+                    "[+10]% Strength <for [Military] units>",
+                    "Empire enters golden age","Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 9
             },
 		{
                 "name": "New Deal",
@@ -1289,6 +1298,14 @@
             "row": 2,
             "column": 1
         },
+		{
+                "name": "Constitution",
+                "uniques": [
+			"Gain a free [Amphitheater] [in all cities]","[+1] Movement <for [Melee] units>","[+1] Movement <for [Civilian] units>"
+                ],
+                "row": 1,
+                "column": 4
+            },
     {
         "name": "Distributed Sovereignty",
         "uniques": [
