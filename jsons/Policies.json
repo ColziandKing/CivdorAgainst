@@ -41,7 +41,6 @@
                     "[+2 Culture] from every [Hermitage]",
                     "[+2 Culture] from every [National Intelligence Agency]"
                 ],
-		"requires": ["Oligarchy"],
                 "row": 2,
                 "column": 5
             },
@@ -51,7 +50,6 @@
 			"[+25]% Golden Age length","[+10]% [Culture] [in capital] <while the empire is happy>",
                     "Empire enters golden age","[+2 Food] [in all cities]"
                 ],
-		"requires": ["Aristocracy"],
                 "row": 2,
                 "column": 2
             },
@@ -61,7 +59,6 @@
 			"[+2 Culture] from every [Forest]","[+2 Culture] from every [Jungle]",
 			"[-15]% maintenance cost for buildings [in all cities]","Provides [1] [Policies]"
                 ],
-		"requires": ["Feasts & Festivals"],
                 "row": 3,
                 "column": 1
             },
@@ -71,7 +68,6 @@
                     "[+15]% growth [in capital]",
                     "[+2 Food] [in capital]","Provides [1] [Policies]"
                 ],
-                "requires": ["Feasts & Festivals","Legalism"],
                 "row": 3,
                 "column": 4
             },
@@ -80,7 +76,6 @@
                 "uniques": [
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]","Provides [1] [Policies]"
                 ],
-                "requires": ["Legalism"],
                 "row": 3,
                 "column": 6
             },
@@ -116,7 +111,6 @@
                     "[-25]% construction time for [All] improvements",
                     "Free [Worker] appears"
                 ],
-		"requires": ["Free Speech"],
                 "row": 2,
                 "column": 2
             },
@@ -126,7 +120,6 @@
                     "[+50]% Production when constructing [Settler] units [in capital]",
                     "Free [Settler] appears"
                 ],
-                "requires": ["Free Speech"],
                 "row": 2,
                 "column": 4
             },
@@ -136,7 +129,6 @@
                     "[+1 Production] [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
-		"requires": ["Free Speech"],
                 "row": 2,
                 "column": 6
             },
@@ -146,7 +138,6 @@
                     "Each city founded increases culture cost of policies [44]% less than normal",
                     "Empire enters golden age","Provides [1] [Policies]"
                 ],
-                "requires": ["Republic"],
                 "row": 3,
                 "column": 1
             },
@@ -155,7 +146,6 @@
                 "uniques": [
                     "[+20]% Great Person generation [in all cities]","Provides [1] [Policies]"
                 ],
-		"requires": ["Citizenship"],
                 "row": 3,
                 "column": 4
             },
@@ -166,7 +156,6 @@
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Policies]"
                 ],
-                "requires": ["Citizenship"],
                 "row": 3,
                 "column": 7
             },
