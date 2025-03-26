@@ -571,7 +571,6 @@
                 "name": "Resettlements",
                 "uniques": [
                     "[+3] population [in this city] <upon founding a city>",
-			"[-3] population [in capital] <upon founding a city>",
                     "Gain a free [Workshop] [in this city] <upon founding a city>",
                     "Gain a free [Monument] [in this city] <upon founding a city>",
                     "Gain a free [Granary] [in this city] <upon founding a city>",
