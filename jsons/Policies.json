@@ -605,7 +605,7 @@
         "name": "Aesthetics",
         "era": "Renaissance era",
         "uniques": [ 
-		"Adopt [Cultural Centers]",
+		"Adopt [Cultural Centers]", "Free Social Policy",
             "[Great Artist] is earned [25]% faster",
             "[Great Writer] is earned [25]% faster",
             "[Great Musician] is earned [25]% faster",
@@ -783,9 +783,8 @@
         "uniques": [
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Young Pioneers]","Adopt [Patriotic War]",
             "Comment [Unlocks [Kremlin]]", "Adopt [Socialist Realism]",
-		"Adopt [Dictatorship of the Proletariat]","Adopt [Planned Economy]","Adopt [Socialism]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>","Provides [1] [Policies]"
+		"Adopt [Dictatorship of the Proletariat]",
+            "Provides [1] [Policies]"
         ],
         "policies": [
             {
@@ -934,9 +933,8 @@
         "uniques": [
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Avant Garde]",
             "Comment [Unlocks [Statue of Liberty]]", "Adopt [Civil Society]","Remove [Slavery] <hidden from users>",
-            "Only available <before adopting [Autocracy]>","Adopt [Volunteer Army]",
-		"Adopt [Democracy]","Adopt [Constitution]","Adopt [Their Finest Hour]",
-            "Only available <before adopting [Order]>","Provides [1] [Policies]",
+            "Adopt [Volunteer Army]","Adopt [Democracy]",
+            "Provides [1] [Policies]",
         ],
         "policies": [
             {
@@ -1086,9 +1084,8 @@
         "era": "Industrial era",
         "uniques": [
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Militarism]","Adopt [Fascism]",
-            "Comment [Unlocks [Prora]]","Adopt [Mobilization]","Adopt [Nazism]","Adopt [Populism]","Adopt [Scorched Earth]",
-            "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>","Provides [1] [Policies]"
+            "Comment [Unlocks [Prora]]","Adopt [Mobilization]","Adopt [Nazism]",
+            "Provides [1] [Policies]"
         ],
         "policies": [
             {
