@@ -94,7 +94,8 @@
         "era": "Ancient era",
         "uniques": [
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>","[+1 Culture] [in all cities]", 
-		"Free Social Policy", "Adopt [Free Speech]", "Comment [Unlocks [The Pyramids]]","Provides [1] [Policies]","Remove [Barbarism] <hidden from users>"
+		"Free Social Policy", "Adopt [Free Speech]", "Comment [Unlocks [The Pyramids]]","Provides [1] [Policies]","Remove [Barbarism] <hidden from users>",
+		"Only available <after adopting [Honor]>"
         ],
         "policies": [
 		{
@@ -195,7 +196,8 @@
 			"Units in cities cost no Maintenance","Free Social Policy",
                     "[+50]% Strength for cities <with a garrison> <when attacking>","Adopt [Military Tradition]",
 		"[+15]% Production when constructing [Melee] units [in all cities]",
-            "Comment [Unlocks [Statue of Zeus]]","Provides [1] [Policies]","Remove [Tribalism] <hidden from users>"
+            "Comment [Unlocks [Statue of Zeus]]","Provides [1] [Policies]","Remove [Tribalism] <hidden from users>",
+            "Only available <after adopting [Tradition]>"
         ],
         "policies": [
             {
@@ -284,7 +286,8 @@
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]","Adopt [Pacifism] <hidden from users>",
             "[+1 Culture, +1 Faith] [in capital]", "Free Social Policy","Adopt [Organized Religion]", 
-            "Comment [Unlocks [Hagia Sophia]]","Provides [1] [Policies]","Remove [Paganism] <hidden from users>"
+            "Comment [Unlocks [Hagia Sophia]]","Provides [1] [Policies]","Remove [Paganism] <hidden from users>,
+		"Only available <after adopting [Liberty]>"
         ],
         "policies": [
             {
@@ -361,7 +364,7 @@
         "name": "Patronage",
         "era": "Classical era",
         "uniques": ["Free Social Policy","Adopt [Philanthropy]","Adopt [Vassalage] <hidden from users>",
-            "Resting point for Influence with City-States is increased by [20]",
+            "Resting point for Influence with City-States is increased by [20]","Only available <after adopting [Piety]>",
             "Comment [Unlocks [Forbidden Palace]]","Provides [1] [Policies]","Remove [Decentralization] <hidden from users>"
         ],
         "policies": [
@@ -433,7 +436,8 @@
         "name": "Commerce",
         "uniques": [
             "[Great Merchant] is earned [33]% faster", "Free Social Policy","Adopt [Silk Road]",
-            "Comment [Unlocks [Big Ben]]","Provides [1] [Policies]","Adopt [Environmentalism] <hidden from users>"
+            "Comment [Unlocks [Big Ben]]","Provides [1] [Policies]","Adopt [Environmentalism] <hidden from users>",
+		"Only available <after adopting [Patronage]>"
         ],
         "era": "Medieval era",
         "policies": [
@@ -521,7 +525,8 @@
             "[+1] Sight <for [{Military} {Water}] units>","Adopt [Mercenary Navy] <hidden from users>",
 		"Free [Quinquereme] appears","Free [Quinquereme] appears",
             "Free [Quinquereme] appears","Comment [Unlocks [The Louvre]]",
-            "Comment [Unlocks [Conquistador]]","Provides [1] [Policies]"
+            "Comment [Unlocks [Conquistador]]","Provides [1] [Policies]",
+		"Only available <after adopting [Commerce]>"
         ],
         "era": "Medieval era",
         "policies": [
@@ -609,7 +614,8 @@
             "[Great Artist] is earned [25]% faster",
             "[Great Writer] is earned [25]% faster",
             "[Great Musician] is earned [25]% faster",
-            "Comment [Unlocks [Uffizi]]","Provides [1] [Policies]"
+            "Comment [Unlocks [Uffizi]]","Provides [1] [Policies]",
+		"Only available <after adopting [Exploration]>"
         ],
         "policies": [
             {
@@ -705,7 +711,8 @@
         "uniques": [ 
 		"Free Social Policy","Adopt [Free Thought]",
             "[Great Scientist] is earned [20]% faster",
-            "Comment [Unlocks [Porcelain Tower]]","Provides [1] [Policies]"
+            "Comment [Unlocks [Porcelain Tower]]","Provides [1] [Policies],
+	    "Only available <after adopting [Aesthetics]>"
         ],
         "policies": [
 		{
@@ -783,7 +790,7 @@
         "uniques": [
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Young Pioneers]","Adopt [Patriotic War]",
             "Comment [Unlocks [Kremlin]]", "Adopt [Socialist Realism]",
-		"Adopt [Dictatorship of the Proletariat]",
+		"Adopt [Dictatorship of the Proletariat]","Only available <after adopting [Ideology]>",
             "Provides [1] [Policies]"
         ],
         "policies": [
@@ -933,7 +940,7 @@
         "uniques": [
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Avant Garde]",
             "Comment [Unlocks [Statue of Liberty]]", "Adopt [Civil Society]","Remove [Slavery] <hidden from users>",
-            "Adopt [Volunteer Army]","Adopt [Democracy]",
+            "Adopt [Volunteer Army]","Adopt [Democracy]","Only available <after adopting [Ideology]>",
             "Provides [1] [Policies]",
         ],
         "policies": [
@@ -1085,6 +1092,7 @@
         "uniques": [
             "Free Social Policy","Free Social Policy <hidden from users>","Adopt [Militarism]","Adopt [Fascism]",
             "Comment [Unlocks [Prora]]","Adopt [Mobilization]","Adopt [Nazism]",
+            "Only available <after adopting [Ideology]>",
             "Provides [1] [Policies]"
         ],
         "policies": [
