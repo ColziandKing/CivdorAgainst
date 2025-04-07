@@ -286,7 +286,7 @@
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]","Adopt [Pacifism] <hidden from users>",
             "[+1 Culture, +1 Faith] [in capital]", "Free Social Policy","Adopt [Organized Religion]", 
-            "Comment [Unlocks [Hagia Sophia]]","Provides [1] [Policies]","Remove [Paganism] <hidden from users>,
+            "Comment [Unlocks [Hagia Sophia]]","Provides [1] [Policies]","Remove [Paganism] <hidden from users>",
 		"Only available <after adopting [Liberty]>"
         ],
         "policies": [
@@ -711,7 +711,7 @@
         "uniques": [ 
 		"Free Social Policy","Adopt [Free Thought]",
             "[Great Scientist] is earned [20]% faster",
-            "Comment [Unlocks [Porcelain Tower]]","Provides [1] [Policies],
+            "Comment [Unlocks [Porcelain Tower]]","Provides [1] [Policies]",
 	    "Only available <after adopting [Aesthetics]>"
         ],
         "policies": [
