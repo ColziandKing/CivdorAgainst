@@ -94,8 +94,7 @@
         "era": "Ancient era",
         "uniques": [
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>","[+1 Culture] [in all cities]", 
-		"Free Social Policy", "Adopt [Free Speech]", "Comment [Unlocks [The Pyramids]]","Provides [1] [Policies]","Remove [Barbarism] <hidden from users>",
-		"Only available <after adopting [Honor]>"
+		"Free Social Policy", "Adopt [Free Speech]", "Comment [Unlocks [The Pyramids]]","Provides [1] [Policies]","Remove [Barbarism] <hidden from users>"
         ],
         "policies": [
 		{
@@ -196,8 +195,7 @@
 			"Units in cities cost no Maintenance","Free Social Policy",
                     "[+50]% Strength for cities <with a garrison> <when attacking>","Adopt [Military Tradition]",
 		"[+15]% Production when constructing [Melee] units [in all cities]",
-            "Comment [Unlocks [Statue of Zeus]]","Provides [1] [Policies]","Remove [Tribalism] <hidden from users>",
-            "Only available <after adopting [Tradition]>"
+            "Comment [Unlocks [Statue of Zeus]]","Provides [1] [Policies]","Remove [Tribalism] <hidden from users>"
         ],
         "policies": [
             {
@@ -286,8 +284,7 @@
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]","Adopt [Pacifism] <hidden from users>",
             "[+1 Culture, +1 Faith] [in capital]", "Free Social Policy","Adopt [Organized Religion]", 
-            "Comment [Unlocks [Hagia Sophia]]","Provides [1] [Policies]","Remove [Paganism] <hidden from users>",
-		"Only available <after adopting [Liberty]>"
+            "Comment [Unlocks [Hagia Sophia]]","Provides [1] [Policies]","Remove [Paganism] <hidden from users>"
         ],
         "policies": [
             {
