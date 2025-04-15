@@ -1,5 +1,163 @@
 
 	{
+		"name": "Slave Market",
+		"replaces": "Market",
+		"uniqueTo": "Macrobia",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"gold": 4,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Free [Worker] appears"],
+		"requiredTech": "Currency"
+	},
+	    {
+		"name": "Smeltery",
+        "replaces": "Forge",
+		"uniqueTo": "Nok",
+        "maintenance": 1,
+		"production": 1,
+        "hurryCostModifier": 25,
+        "requiredTech": "Iron Working",
+        "uniques": ["Provides [2] [Iron]","[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"]
+    },{
+		"name": "Stupa",
+		"replaces": "Temple",
+		"uniqueTo": "Champa", 
+		"maintenance": 2,
+		"faith": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+       		"cost": 100,
+		"uniques": ["[+1 Faith] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Khachkar",
+		"replaces": "Shrine",
+		"uniqueTo": "Armenia", 
+		"faith": 1,
+		"cost": 40,
+		"requiredTech": "Pottery",
+		"hurryCostModifier": 40,
+		"uniques": ["[+2 Faith] from [Mountain] tiles [in this city]"]
+	},
+	{
+        "name": "IRRI",
+        "science": 3,
+        "percentStatBonus": {"science": 25, "food": 10},
+        "specialistSlots": {"Scientist": 3},
+        "replaces": "University",
+        "uniqueTo": "Philippines",
+        "maintenance": 3,
+        "hurryCostModifier": 25,
+        "uniques": ["[+2 Science] from [Farm] tiles [in this city]"],
+        "requiredTech": "Education"
+    },
+	{ 
+		"name": "Palengke",
+		"replaces": "Market",
+		"uniqueTo": "Philippines",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 23,
+		"percentStatBonus": {"gold": 30},
+		"uniques": [
+			"Comment [[+1 Food, +1 Gold, +1 Production] from each Trade Route (doubled from the [Industrial era] onwards)]",
+			"Comment [[+1 Gold, +1 Production] from [Stone] tiles; and [+1 Gold, +1 Food] from other [Bonus resource] tiles [in this city]]",
+			"Comment [[+1 Production, +1 Food] from [Horses] tiles; and [+1 Production, +1 Gold] from other [Strategic resource] tiles [in this city]]",
+			"[+1 Gold, +1 Production, +1 Happiness] from [Luxury resource] tiles [in this city]",
+			"[+1 Food, +1 Gold, +1 Production] from each Trade Route <before the [Industrial era]> <hidden from users>",
+			"[+2 Food, +2 Gold, +2 Production] from each Trade Route <starting from the [Industrial era]> <hidden from users>",
+			"[+1 Food, +1 Gold] from [Bonus resource] tiles [in this city] <in tiles without [Stone]> <hidden from users>",
+			"[+1 Production, +1 Gold] from [Stone] tiles [in this city] <hidden from users>",
+			"[+1 Production, +1 Gold] from [Strategic resource] tiles [in this city] <in tiles without [Horses]> <hidden from users>",
+			"[+1 Production, +1 Food] from [Horses] tiles [in this city] <hidden from users>"
+		],
+		"requiredTech": "Currency"
+	},
+    {
+        "name": "Forum",
+        "replaces": "Amphitheater",
+        "uniqueTo": "Rome",
+        "cost": 95,
+        "culture": 3,
+        "faith": 1,
+        "happiness": 2,
+        "requiredBuilding": "Monument",
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Destroyed when the city is captured",
+            "Comment [Has 1 Great Work of Writing Slot]"
+        ],
+        "requiredTech": "Drama and Poetry"
+    },
+    {
+        "name": "Research Institute",
+	"replaces": "Public School",
+	"uniqueTo": "Russia",
+	"science": 3,
+        "specialistSlots": {"Scientist": 1},
+        "requiredBuilding": "University",
+        "maintenance": 3,
+        "hurryCostModifier": 0,
+        "uniques": [
+            "[+2 Science] per [2] population [in this city]",
+            "[+2 Science] from [Forest] tiles [in this city]"
+        ],
+        "requiredTech": "Scientific Theory"
+    },
+    {
+        "name": "Sacrificial Altar",
+        "uniqueTo": "Aztecs",
+        "replaces": "Courthouse",
+        "culture": 1,
+        "faith": 2,
+        "happiness": 3,
+        "hurryCostModifier": 50,
+        "uniques": [
+            "Remove extra unhappiness from annexed cities",
+            "Can only be built <in [Annexed] cities>"
+        ],
+        "requiredTech": "Mathematics"
+    },
+    {
+        "name": "Supermarket",
+	"requiredBuilding": "Grocer",
+	"cost": 400,
+        "food": 3,
+        "production": 3,
+        "maintenance": 4,
+        "percentStatBonus": {"gold": 10},
+        "requiredTech": "Replaceable Parts"
+    },
+    {
+        "name": "Mall",
+	"requiredBuilding": "Grocer",
+	"uniqueTo": "America",
+	"cost": 400,
+        "food": 2,
+        "culture": 2,
+	"production": 2,
+        "maintenance": 4,
+        "percentStatBonus": {"gold": 10},
+        "requiredTech": "Replaceable Parts"
+    },
+    {
+        "name": "Hypermarket",
+	"requiredBuilding": "Grocer",
+        "uniqueTo": "Colziand",
+	"cost": 400,
+        "food": 2,
+	"gold": 2,
+        "production": 2,
+        "maintenance": 4,
+        "percentStatBonus": {"gold": 10},
+        "requiredTech": "Replaceable Parts"
+    },
+	{
 		"name": "Philippines",
 		"leaderName": "Andrés Bonifacio",
 		"adjective": ["Filipino"],
