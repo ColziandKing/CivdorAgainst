@@ -1,4 +1,706 @@
 
+	{
+		"name": "Philippines",
+		"leaderName": "Andrés Bonifacio",
+		"adjective": ["Filipino"],
+		"favoredReligion": "Catholicism",
+		"startBias": ["Coast"],
+        "preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "Greetings, Supremo Andres Bonifacio. Your great intellect and strong understanding of the Filipino plight allowed you to forge numerous successful victories against the Spaniards and the Americans.",
+		"startIntroPart2": "Most courageous and magnanimous Supremo, Philippines once again requires the service of a compassionate and determined leader, one who can reunite the country and establish a strong foundation for the years to come. Can you establish your nation through strong civil institutions, or will you work to conquer your enemies through the use of force? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "Your ways have been revealed. Time to fight for what is ours!",
+		"attacked": "This insolence will cost you dearly!",
+		"defeated": "The Filipino people is worth dying for",
+		"introduction": "Welcome to the Philippines. I am Supremo Andres Bonifacio.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Hello! What do you want?",
+		"tradeRequest": "This offer won't be valid for a lot of time, think about it.",
+		"outerColor": [139,0,0],
+		"innerColor": [255,255,255],
+		"uniqueName": "Sovereign Tagalog Nation",
+		"uniques": ["Gain an extra spy <upon entering the [Modern era]>","Starts with [Navigation School] adopted",
+			"[+2 Production] from every [Farm]","[+2 Food] from every [Terrace farm]","[+2 Production, +2 Food] from every [Polder]"],
+		"cities": ["Manila","Cavite","Bulácan","Santa Cruz","Batangas","Bacolor","Cabanatuan","Tárlac","Vigan","Puerto Princesa","Davao","Aparri","Ilo-ilo","Zamboanga","Albay","Cebú",
+			"Iligan","Balanga","Tacloban","Surigao","Mórong","Bacolód","Tayabas","Tagbilaran","Daet","Catbalogan","Nueva Cáceres","Cápix","Sorsogon","Concepción","Binangonan",
+			"San José de Buenavista","Iba","Dumaguete","Calapan","Dagupan","Baler","Bayombong","La Trinidad","San Fernando","Ilagan","Cagayán","Binorungan","Bangued","Laoag","Sabah-Borneo"
+	   		]
+	},
+	{
+		"name": "Epirus",
+		"leaderName": "Pyrrhus",
+		"adjective": ["Epirote"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "There can be only one king. Prepare for battle!",
+		"attacked": "I think my emissary must have been late, I already declared war on you!",
+		"defeated":  "You were a worthy opponent. The gods will welcome me!",
+		"introduction":  "Welcome to Epirus, friend. I am king Pyrrhus. Are you another expenda... I mean Ally... or perhaps a next target of my army?",
+		
+		"neutralHello": "Greeting",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["I can't accept!","You need to try harder."],
+		"hateYes": ["Let it be.","This offer is too good to reject."],
+		
+		"afterPeace": "Hail, great lord. This was indeed a good fight.",
+		"tradeRequest": "That should do.",
+
+		"innerColor": [	232, 170, 158],
+		"outerColor": [	94, 50, 0],
+		"uniqueName": "Pyrrhic Victory",
+		"uniqueText": "All military units have + 25% more strength when attacking cities, but suffer -25% penalty when defending against cities. +25% [Production] when constructing military units in capital. Gains a free [Great General] upon researching Bronze Working and Steel",
+		"uniques": ["[Military] units gain the [March] promotion","[+25]% Production when constructing [Military] units [in capital]","Free [Great General] appears <upon discovering [Bronze Working] technology>","Free [Great General] appears <upon discovering [Steel] technology>"],
+		"cities": ["Ambracia","Phoenike","Passaron"]
+	},
+	{
+		"name": "Champa",
+		"leaderName": "Chế Bồng Nga",
+		"adjective": ["Cham"],
+		"startBias": ["Jungle","Grassland","Coast"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Greetings, Po Binasuor, last great king of Champa! Your enemies have never ceased to tremble at your legend! An Austronesian people, the Cham came to occupy a key position on the Indochinese coast mediating international sea trade with China. Yet, lacking the fertile rice fields of their neighbors, Champa grew to exploit these lucrative waters and developed a unique plunder based economy, gaining notoriety throughout the region for piracy. Champa would represent a melting-pot of Southeast Asia, introducing technology from China, trading with Indonesian merchants, intermarrying with the Khmer kings, and building unforgettable temples to the gods of ancient India. Yet, seemingly always at war, Champa fell, broken and desolate, to conquerors from the north.",
+		"startIntroPart2": "Red King, it was you who reunited the tattered remains of your people and, outnumbered six to one, almost claimed victory over your bitter enemies, the Dai Viet! Will you now return to recalim your lost homeland? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "We tolerated you way longer than we should, and now we demand you pay with your blood.",
+		"attacked": "We will ensure you will remember the day you turned on us.",
+		"defeated":  "So that's how it all ends. That is not how I've imagined my last moments.",
+		"introduction":  "I am the Red King of Champa, Chế Bồng Nga! Are you here to trade?",
+		
+		"neutralHello": "Greetings, friend.",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["You dare to joke in my presence!?","Don't make me laugh!"],
+		"hateYes": ["I must accept, even if i don't like you.","Fine."],
+		
+		"afterPeace": "I hope this won't happen again and even if it does - We've learned a lesson!",
+		"tradeRequest": "Will this work or do I need to propose you a better deal?",
+
+		"outerColor": [	78, 154, 230],
+		"innerColor": [	204, 56, 53],
+		"uniqueName": "Traders of the Shore",
+		"uniques": ["[+1 Gold] from every [Luxury resource]","[1] Movement point cost to disembark <for [All] units>","[1] Movement point cost to embark <for [All] units>","[+1 Culture] from every [Trading post]"],
+		"cities": ["Indrapura","My So'n","Vijaya","Mang Ly","Lam Ap Pho","Amaravati","Kauthara","Panduranga",
+			"Thi Li Bi Nai","Trivakramapura","Balonga","Hamu Lithit","Dong Hoi","Aya Ru","Bingi",
+			"Hve","Kon Tum","Yang Prong","Daknan","Kandarpapura","Eatran","Vishnupura","Tuy Hoa"]
+	},
+			{
+		"name": "Republic of Genoa",
+		"leaderName": "Simone Boccanegra",
+		"adjective": ["Genoese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "Live long and prosper, Simone Boccanegra, Doge of mighty Genoa! Your reign was marked by an intense cliud of intrigue and subterfuge. Genoa, one of the contending powers for domination of the Mediterranean, was ruled by an aristocratic elite. Once elected Doge, you disposed of the established upper class in a revolutionary upheaval that would forever change Genoa's political landscape. Entrenched in a long war with Venice, that would eventually be lost, you fought off would-be assassins and rivals for five long years before being forced to resign. But your successors were less tenacious as you, and soon enough you came back to power. Your rule would last another seven years, before a poisoning attempt was finally successful.",
+		"startIntroPart2": "Revolutionari Doge, your people are once again surrounded by enemies plotting Genoa's demise. Will you see through the ploys of your many rivals, and once again establish Genoa as a force to be reckoned with? Will you seize control of the seas, and establish dominance over the trade routes of this new world? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I think we might have conflicting interests, actually - I am certain!",
+		"attacked": "I hope you studied that thoroughly, because there will be no mercy.",
+		"defeated": "I must leave... Farewell.",
+		"introduction": "You stand in front of Simone Boccanera, the doge of Republic of Genoa. Would you mind a cup of wine? Or two?",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Yes.","Speak."],
+		"neutralNo": ["No.","That's unacceptable."],
+		"neutralYes": ["I can't refuse.","I gladly accept."],
+		"hateHello": "Don't waste my time!",
+		"hateLetsHearIt": ["What's your offer?"],
+		"hateNo": ["..."],
+		"hateYes": ["We must accept."],
+		
+		"afterPeace": "Hopefully that little war did not impact our economic relations much.",
+		"tradeRequest": "What is your proposal?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [255, 0, 0],
+		"uniqueName": "The Spark of the Renaissance",
+		"uniques": ["[+15]% [Gold] [in all cities connected to capital]","[+15]% [Science] <during the [Medieval era]>"],
+		"cities": ["Genoa","Ajaccio","Costanza","Albenga","Monaco","Savona","San Remo","Laiazzo","Giaffa","Basta","Porto-Vecchio","Sassari","Alghero","Nuoro","Olbia","Bonifacio"]
+	},
+			{
+		"name": "Macrobia",
+		"leaderName": "Sayid",
+		"adjective": ["Macrobian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "You have had your chance, now prepare for war!",
+		"attacked": "You DARE declare war on us? We shall make you suffer!",
+		"defeated":  "So that is how it all ends. I've never expected to end as a slave!",
+		"introduction":  "Who are you? I bet You are here to admire our wealth.",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Yes.","Go on."],
+		"neutralNo": ["Do not test my patience!","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","We accept."],
+		"hateHello": "Don't waste much of my time!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["You can't be serious!","No one would agree to that. Ever."],
+		"hateYes": ["Fine.","You can't simply refuse such offer."],
+		
+		"afterPeace": "We shall now pray for the better, I mean more profitable, days!",
+		"tradeRequest": "I bring you an excellent offer!",
+
+		"outerColor": [	84, 215, 247],
+		"innerColor": [	255, 255, 255],
+		"uniqueName": "Shackles of Gold",
+		"uniqueText": "Earns [Gold] for killing enemy land units", 
+		"uniques": ["Earn [75]% of killed [Land] unit's [Strength] as [Gold]"],
+		"cities": ["Mogadishu","Avalite","Botiala","Gondal","Toniki","Salweyn","Miandi","Sarapion","Hannassa","Bulhar",
+		"Essina","Famo","Mosylon","Opone","Nikon","Mundus"]
+	},
+		{
+		"name": "The Olmec",
+		"leaderName": "U Kix Chan",
+		"adjective": ["Olmec"],
+		"startBias": ["Jungle","Coast"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Oh mighty and righteous U Kix Chan, King of Palenque and son of the Lady White Quetzal, your people prostrate themselves in awe and reverence! A skilled and ingenious people, the Olmec emerged along the Coatzacoalcos river basin in what is today the southern Mexican Gulf Coast. Quick to exploit the natural wonders of their surroundings, they developed new technologies - boiling rubber from tree sap - and carved colossal monuments from the basalt boulders of the Tuxtlas Mountains. From this cradle, Mesoamerican civilization would flourish: as the Maya would rise in the Yucatan to the east and the Aztecs in the Valley of Mexico to the west, the true legacy of the Olmec would be the indelible mark left on these great empires to come.",
+		"startIntroPart2": "Ancient King, history has not been kind to your land. Foreign crowns have crossed the sea to kill your children and ravage their civilizations. The people of Mesoamerica now pray to their ancestors for guidance. Will you return to restore the glory of your culture and legacy? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "War! The Feathered Serpent demands sacrificial blood!",
+		"attacked": "Is it bravery or stupidity?",
+		"defeated":  "That's the greatest sacrifice I can offer You!",
+		"introduction":  "Were you send by the great Serpent?",
+		
+		"neutralHello": "Hello, friend.",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["I can't accept!"],
+		"hateYes": ["Let it be."],
+		
+		"afterPeace": "What such bloodhirsty beast might want?",
+		"tradeRequest": "What do you think?",
+
+		"outerColor": [	91, 176, 156],
+		"innerColor": [ 40, 94, 68],
+		"uniqueName": "Feathered Serpent",
+		"uniqueText": "May buy National Wonders with [Faith].",
+		"uniques": ["May buy [National Wonder] buildings with [Faith] for [2] times their normal Production cost"],
+		"cities": ["La Venta","San Lorenzo","Tres Zapotes","Izapa","Tzapotl","Tonala","Texpa","Tlapocoya","Xoc","Coatztitlan","Izacoya"]
+	},
+			{
+		"name": "Nok",
+		"leaderName": "Olori",
+		"adjective": ["Nok"],
+		"startBias": ["Jungle","Iron"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Welcome, King Olori, leader of the Nok culture, architect of the cradle of North African civilization! For millennia, your people endured a hunter-gather existance, isolated from other peoples. It was not until the turn of the first millennium BC that your people discovered iron from the north, enabling them to craft their dominion of what is northern Nigeria today: pottery, architecture and artist expression thrived. But it was not to last, as overpopulation, coupled with rapid climate shifts, spelled the end of your culture. Your people persisted, however, forming the formidable Benin, Nri, Yoruba and Hausa kingdoms and ethnic groups lasting into the modern day.",
+		"startIntroPart2": "Olori, your people feel their culture has been vandalised and forgotten, and seek a new chapter in west African history that will return to its artistic roots, forging a culture that will embrace new technology. Can you craft their legacy once again? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You must be destroyed!",
+		"attacked": "Oh, I see. I did not expect anything else from you.",
+		"defeated":  "We might die, but our culture is eternal.",
+		"introduction":  "Welcome to our lands. May there be peace among us!",
+		
+		"neutralHello": "Hello, friend.",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["I can't accept!","You need to try harder."],
+		"hateYes": ["Let it be.","This offer is too good to reject."],
+		
+		"afterPeace": "Oh?",
+		"tradeRequest": "Do you like it?",
+
+		"outerColor": [	189, 182, 125],
+		"innerColor": [	82, 70, 55],
+		"uniqueName": "African Treasures",
+		"uniqueText": "All cities gain a free Smeltery. +1 [Science] from every Iron.",
+		"uniques": ["Gain a free [Smeltery] [in all cities]","[+1 Science] from every [Iron]"],
+		"cities": ["Nok","Jos","Ife","Samun","Kagara","Janjala","Kwoi","Jere","Dokku","Bokkos","Riyom","Ogbabu","Pangajere","Taruga","Kamrun","Vom","Chakwama","Dogo-Dogo","Jagwa"]
+	},
+	{
+		"name": "Georgia",
+		"leaderName": "Tamar",
+		"adjective": [
+			"Georgian"
+		],
+		"preferredVictoryType": "Domination",
+		"declaringWar": "God fights with us. You stand alone.",
+		"attacked": "Georgian hearts will not tremble before your multitudes.",
+		"defeated": "Walls weren't enough to save Georgia from ruin. Neither was I.",
+		"introduction": "I am Tamar of Georgia. Say what you will and be on your way.",
+		"neutralHello": "I notice your sincerity.",
+		"hateHello": "You are a detestable person.",
+		"tradeRequest": "Georgian merchants bring many gifts.",
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			254,
+			124,
+			19
+		],
+		"uniqueName": "Strength in Unity",
+		"uniqueText": "+150% Production when constructing Walls in all cities, +2 Movement for all units during Golden Age, +10% Strength for all units during a Golden Age.",
+		"uniques": [
+			"[+150]% Production when constructing [Ancient Walls] buildings [in all cities]",
+			"[+2] Movement <for [All] units> <during a Golden Age>",
+			"[+10]% Strength <for [All] units> <during a Golden Age>"
+		],
+		"cities": [
+			"Tbilisi",
+			"Kaspi",
+			"Rustavi",
+			"Tskhumi",
+			"Akhalkalaki",
+			"Kutaisi",
+			"Zugdidi",
+			"Batumi",
+			"Gori",
+			"Mtskheta",
+			"Poti",
+			"Telavi",
+			"Akhali Atoni",
+			"Akhaltsikhe",
+			"Bichvinta",
+			"Borjomi",
+			"Dedoplistsqaro",
+			"Dmanisi",
+			"Geguti",
+			"Mutso",
+			"Nicopsia",
+			"Omalo",
+			"Oni",
+			"Tianeti",
+			"Tmogvi",
+			"Tsageri",
+			"Amasya",
+			"Tsalka",
+			"Tskhinvali",
+			"Urbnisi",
+			"Zestafoni"
+		]
+	},
+	{
+		"name": "Gran Colombia",
+		"leaderName": "Bolivar Simon",
+		"adjective": [
+			"Gran Colombian"
+		],
+		"preferredVictoryType": "Domination",
+		"declaringWar": "Your tyranny, if unchecked, dooms the world to darkness, and for this reason I must declare war on you.",
+		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
+		"defeated": "Everything I have done, I did for the nation of Gran Colombia. I remain a patriot to the very end.",
+		"introduction": "I, President Simon Bolivar, welcome you to Gran Colombia.",
+		"neutralHello": "Excellent!",
+		"hateHello": "Tyrant!.",
+		"tradeRequest": "I send to you a delegation of my finest horsemen. Will you let them in?",
+		"outerColor": [
+			1,
+			42,
+			108
+		],
+		"innerColor": [
+			245,
+			217,
+			0
+		],
+		"uniqueName": "Ejército Patriota",
+		"uniques": [
+			"[+3] Movement <for [non-air] units>"
+		],
+		"cities": [
+			"Bogotá",
+			"Caracas",
+			"Quito",
+			"Valencia De Carabobo",
+			"Cali",
+			"Medellín",
+			"Maracaibo",
+			"Cumaná",
+			"Guayaquil",
+			"Panamá",
+			"Cartagena de Indias",
+			"Popayán",
+			"Cuenca",
+			"Barinas",
+			"Santa Marta",
+			"Loja",
+			"Angostura",
+			"Pasto",
+			"Nueva Barcelona",
+			"Neiva",
+			"Mérida",
+			"Portoviejo",
+			"Riobamba",
+			"Ibarra",
+			"Riohacha",
+			"Quibdó",
+			"Nueva Pamplona",
+			"Santiago de Veraguas",
+			"La Asunción",
+			"Achaguas",
+			"Honda",
+			"Socorro",
+			"Mompós",
+			"Trujillo",
+			"Santa Fe de Antioquia",
+			"Pore",
+			"Cúcuta",
+			"Mariquita",
+			"San Fernando de Apure",
+			"Barquisimeto"
+		]
+	},
+	{
+		"name": "Mali",
+		"leaderName": "Mansa Musa",
+		"startBias": [
+			"Desert"
+		],
+		"adjective": [
+			"Malian"
+		],
+		"declaringWar": "Your transgressions are as deep as oceans. O God, grant that I may chastise this one!",
+		"attacked": "Enough! My forbearance ends here! We must have war between us, instead of a false peace.",
+		"defeated": "Wealth is fleeting; learning is vanity. All I have done, O God, I did in your name.",
+		"introduction": "I am Sultan Musa, lord of Mali, andâ€”thanks be to Godâ€”a very, very rich man. I am pleased to meet you.",
+		"neutralHello": "I am pleased.",
+		"hateHello": "Serpent! Tempter! Wretch!",
+		"tradeRequest": "Please accept these simple gifts of one hundred porters carrying sacks of gold dust.",
+		"outerColor": [
+			121,
+			0,
+			2
+		],
+		"innerColor": [
+			234,
+			225,
+			158
+		],
+		"uniqueName": "Songs of the Jeli",
+		"uniqueText": "Cities get +1 Food, +1 Faith for every adjacent desert, -1 Production and +4 Gold from every Mine, -30% Production when constructing Buildings and Military Units in all cities, -20% Gold and Faith cost of purchasing items after discovering currency",
+		"uniques": [
+			"[+1 Food, +1 Faith] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
+			"[+2 Food, +2 Faith] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
+			"[+3 Food, +3 Faith] [in all cities] <with [3] to [3] neighboring [Desert] tiles>",
+			"[+4 Food, +4 Faith] [in all cities] <with [4] to [4] neighboring [Desert] tiles>",
+			"[+5 Food, +5 Faith] [in all cities] <with [5] to [5] neighboring [Desert] tiles>",
+			"[+6 Food, +6 Faith] [in all cities] <with [6] to [6] neighboring [Desert] tiles>",
+			"[-1 Production, +4 Gold] from every [Mine]",
+			"[-30]% Production when constructing [All] buildings [in all cities]",
+			"[-30]% Production when constructing [All] units [in all cities]",
+			"[Gold] cost of purchasing items in cities [-20]% <after discovering [Currency]>",
+			"[Faith] cost of purchasing items in cities [-20]% <after discovering [Currency]>"
+		],
+		"cities": [
+			"Niani",
+			"Timbuktu",
+			"Jenne",
+			"Gao",
+			"Kumbi Saleh",
+			"Walata",
+			"Tawdenni",
+			"Tadmekka",
+			"Awdaghust",
+			"Kirina",
+			"Segu",
+			"Nioro",
+			"Kangaba",
+			"Kouroussa",
+			"Niagassola",
+			"Diara",
+			"Kayes",
+			"N'teret",
+			"Dia",
+			"Arawan",
+			"Kiri",
+			"Mopti",
+			"Narena",
+			"Dakadiala",
+			"Kukya",
+			"Siby",
+			"Fadama",
+			"Tabon",
+			"Siguiri",
+			"Kaniana"
+		]
+	},
+	{
+		"name": "The Maori",
+		"leaderName": "Kupi",
+		"startBias": [
+			"Coast"
+		],
+		"adjective": [
+			"MÄ?ori"
+		],
+		"declaringWar": "You choose death! Your people wail and moan! The pillars of your houses shake, all your lands are shaking!",
+		"attacked": "Look at the big civ leader over there with the war declaration! Great job, mate. Really shows off how hard you are.",
+		"defeated": "I have done my utmost, but your strength was greater. My heart, at least, will beat undefeated.",
+		"introduction": "I am Kupe the navigator, and you approach the place of the Maori. Will you tell me about yourself?",
+		"neutralHello": "Yeah you're alright.",
+		"hateHello": "Yeah nah.",
+		"tradeRequest": "Here are gifts of pounamu, korowai cloaks and huhu grubs.",
+		"outerColor": [
+			205,
+			0,
+			1
+		],
+		"innerColor": [
+			125,
+			235,
+			228
+		],
+		"uniqueName": "Mana",
+		"uniqueText": "Starts with Sailing and Shipbuilding unlocked and the ability to enter Ocean tiles. Embarked units can defend themselves. +1 Production for unimproved Forest and Jungle tiles, enhanced to +2 with Mercantilism, +1 Food from Fishing Boats. Great Artists cannot be earned.",
+		"uniques": [
+			"Starts with [Sailing]",
+			"Enables embarkation for land units <starting from the [Ancient era]>",
+			"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+			"[+2] Movement <for [Embarked] units>",
+			"[+1] Sight <for [Embarked] units>",
+			"Defense bonus when embarked <for [All] units>",
+			"[Great Artist] is earned [-100]% faster",
+			"[+1 Food] from every [Fishing Boats]",
+			"[+1 Production] from every [Forest] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
+			"[+1 Production] from every [Forest] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]> <after adopting [Mercantilism]>",
+			"[+1 Production] from every [Jungle] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]>",
+			"[+1 Production] from every [Jungle] <in tiles without [Lumber mill]> <in tiles without [Camp]> <in tiles without [Plantation]> <after adopting [Mercantilism]>",
+		],
+		"cities": [
+			"Te Hokianga-nui-a-kupe",
+			"Ngaruawahia",
+			"Opango",
+			"Whakarewarewa",
+			"Kaiapoi",
+			"Whanganui",
+			"Kawhia",
+			"Taumutu",
+			"Kapiti",
+			"Te Pokohiwi",
+			"Otatara pa",
+			"Motupohue",
+			"Ruatoria",
+			"Maungakiekie pa",
+			"Taupiri",
+			"Whaingaroa",
+			"Pukemaire",
+			"Pari-ru",
+			"Taumatawhana pa",
+			"Whanganui-a-Tara",
+			"Waimapihi pa",
+			"Kororipo pa",
+			"Motakiora"
+		]
+	},
+	{
+		"name": "The Mapuche",
+		"leaderName": "Lautaro",
+		"adjective": [
+			"Mapuche"
+		],
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "Domination",
+		"declaringWar": "It comes to war. Mapuche shall use your own weapons against you!",
+		"attacked": "I knew you could not be trusted! We have long prepared for this war. Have you?",
+		"defeated": "We resisted to the last, but it was too late â€¦ too late.",
+		"introduction": "I am Lautaro, the Swift Hawk. Mapuche honor me with respect. Will I see the same from you?",
+		"neutralHello": "You honor Mapuche with this.",
+		"hateHello": "You offend me.",
+		"tradeRequest": "Mapuche send gifts. Please accept these.",
+		"outerColor": [
+			0,
+			79,
+			205
+		],
+		"innerColor": [
+			117,
+			163,
+			243
+		],
+		"uniqueName": "Toqui",
+		"uniques": [
+			"[50]% XP gained from combat <for [Military] units>",
+			"[+10]% Strength <for [All] units> <during a Golden Age>"
+		],
+		"cities": [
+			"Ngulu Mapu",
+			"Puel Mapu",
+			"Pikun Mapu",
+			"Nag Mapu",
+			"Willi Mapu",
+			"Pewen Mapu",
+			"Wente Mapu",
+			"Huilli Mapu",
+			"Lafken Mapu",
+			"Ina Pire Mapu",
+			"Mamull Mapu",
+			"Rangkul Mapu",
+			"Chadi Mapu",
+			"Pehuen Mapu",
+			"Puel Willi Mapu",
+			"Bafkeh Mapu",
+			"Peni Mapu",
+			"Boroa Mapu",
+			"Lelfun Mapu",
+			"Kallfu Mapu",
+			"Chol Chol Mapu",
+			"Makewe Mapu",
+			"Forowe Mapu",
+			"Warria Mapu",
+			"Tehuel Mapu",
+			"Kunko Mapu",
+			"Molu Mapu",
+			"Rani Mapu",
+			"Xuf Xuf Mapu",
+			"Fudi Mapu"
+		]
+	},
+	{
+		"name": "The Cree",
+		"leaderName": "Poundmaker",
+		"adjective": [
+			"Cree"
+		],
+		"declaringWar": "I do not care to inflict the terrors of war upon youâ€”but justice requires it.",
+		"attacked": "You could have found another way. Now, your regrets will be measured in blood.",
+		"defeated": "Had I wanted war, I would not be here now. You did not catch me. I gave myself up.",
+		"introduction": "I am Poundmaker, and I represent the Cree. May there always be peace between us.",
+		"neutralHello": "Good, good.",
+		"hateHello": "Your word is worthless.",
+		"tradeRequest": "My people send you gifts. With these you will last through winter.",
+		"outerColor": [
+			1,
+			42,
+			108
+		],
+		"innerColor": [
+			70,
+			175,
+			10
+		],
+		"uniqueName": "Nihithaw",
+		"uniques": [
+			"Free [Worker] appears <upon discovering [Pottery] technology>",
+			"[+2 Gold] from each Trade Route",
+			"[-50]% Gold cost of acquiring tiles [in all cities]"
+		],
+		"cities": [
+			"Mikisiw-Wacîhk",
+			"Pihtokahanapiwiyin",
+			"Mistahi-Sipihk",
+			"Paskwaw-Askhik",
+			"Piyesiw-Awasis",
+			"Mistawasis",
+			"Makwa-Sakahikan",
+			"Ka-Peyakwaskonam",
+			"Ahtahkakoop",
+			"Wihkasko-Kiseyin",
+			"Chemawawin",
+			"Ka-kiwistahaw",
+			"Ka-ohpawakastahk",
+			"Kawacatoose",
+			"Kawawachikamach",
+			"Kinosew-Sakahikan",
+			"Maskotew",
+			"Missanabie",
+			"Moosomin",
+			"Natashquan",
+			"Nekaneet",
+			"Ochapowace",
+			"Okanese",
+			"Papewe",
+			"Peepeekisis",
+			"Posakanacihk",
+			"Tataskweyak",
+			"Wapi-maskwa",
+			"Waskahikanihk",
+			"Whapmagoostui"
+		]
+	},
+	{
+		"name": "Scythia",
+		"leaderName": "Tomyris",
+		"adjective": [
+			"Sycthian"
+		],
+		"startBias": [
+			"Horses",
+			"Grassland",
+			"Plains"
+		],
+		"preferredVictoryType": "Domination",
+		"declaringWar": "The Empress calls for your head. You will be drowned in your own blood!",
+		"attacked": "You have betrayed the trust of Tomyris and now you will pay!",
+		"defeated": "The Empress falls, but I will be remembered. Will you?",
+		"introduction": "Let it be known between us: I will repay treachery with blood! But, if you are a true friend, we will have peace.",
+		"neutralHello": "Thank you, friend.",
+		"hateHello": "No one will believe your hollow lies.",
+		"tradeRequest": "I have sent you a trade delegation bearing a decorated gorytos as a gift for you. You do have a bow, yes?",
+		"outerColor": [
+			254,
+			178,
+			60
+		],
+		"innerColor": [
+			121,
+			0,
+			2
+		],
+		"uniqueName": "People of the Steppe",
+		"uniques": [
+			"[+100]% Production when constructing [Mounted] units [in all cities]"
+		],
+		"cities": [
+			"Pokrovka",
+			"Issyk",
+			"Kul Oba",
+			"Gelonus",
+			"Pazyryk",
+			"Chertomlyk",
+			"Neapolis",
+			"Kostromskaya",
+			"Myriv",
+			"Solokha",
+			"Malkop",
+			"Kamianka-Dniprovska",
+			"Tolstaya",
+			"Seven Brothers",
+			"Olbia",
+			"Kelermes",
+			"Solocha",
+			"Ulski",
+			"Arzhan",
+			"Elizavetovskaya",
+			"Melgunov",
+			"Panticapaeum",
+			"Tsarskaya",
+			"Ogüz",
+			"Tanais",
+			"Alexandropol",
+			"Kurdzhips",
+			"Tsymbalka",
+			"Theodosia",
+			"Kozei"
+		]
+	},
 [
    {
 		"name": "Tradition",
