@@ -385,7 +385,7 @@
 		{
                 		"name": "United Front",
                 		"uniques": [
-                    		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                    		"Militaristic City-States grant units [3] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
                 			],
                 			"row": 1,
                 			"column": 5
