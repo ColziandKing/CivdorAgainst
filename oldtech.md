@@ -7,17 +7,6 @@ old tech md
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
-			{
-				"name": "Hunting & Gathering",
-				"row": 6,
-				"quote": "'Before much was known, much simple and yet difficult was the life our ancestors had.' - Colziand",
-				"uniques": ["Starting tech",
-                    "Adopt [Tradition]",
-                    "Adopt [Liberty]",
-                    "Adopt [Honor]"]
-			}
-		]
-	},
     {
         "columnNumber": 0,
         "era": "Ancient era",
