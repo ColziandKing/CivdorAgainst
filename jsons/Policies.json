@@ -1,0 +1,709 @@
+[
+    {
+        "name": "Tradition",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 20,
+            "Scientific": 10,
+	    "Religious": 20
+        },
+        "uniques": [
+            "[+1 Food, +1 Production] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "Oligarchy",
+                "uniques": [
+                    "[Gold] cost of purchasing items in cities [-25]%"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Legalism",
+                "uniques": [
+                    "[-50]% Unhappiness from [Population] [in capital]"
+                ],
+		"requires": ["Monarchy"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Monumentalism",
+                "uniques": [
+                   "[+1 Happiness, +1 Culture] from every [Wonder]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Landed Elite",
+                "uniques": [
+			"[+1 Gold] from every [Bonus resource]"
+                ],
+                "requires": ["Monarchy"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Monarchy",
+                "uniques": [
+                    "[+1 Culture, +1 Faith] per [2] population [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Liberty",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 0,
+            "Scientific": 10,
+	    "Religious": 0
+        },
+        "uniques": ["[+1 Culture] [in all cities]"],
+        "policies": [
+            {
+                "name": "Meritocracy",
+                "uniques": [
+                    "[-25]% construction time for [All] improvements"
+                ],
+		"requires": ["Collective Rule"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Republic",
+                "uniques": [
+                    "[+50]% Production towards any buildings that already exist in the Capital"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Collective Rule",
+                "uniques": [
+		    "[+50]% Production when constructing [Civilian] units [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [50]% less than normal"
+                ],
+                "requires": ["Republic"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Citizenship",
+                "uniques": [
+                    "[-50]% unhappiness from the number of cities"
+                ],
+                "requires": ["Republic"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": ["Free Great Person"]
+            }
+        ]
+    },
+    {
+        "name": "Expansion",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 20,
+            "Scientific": 10,
+	    "Religious": 0
+        },
+        "uniques": [
+                "Notified of new Barbarian encampments", "Comment [+33% Strength vs Barbarians and City-States units]", "[+33]% Strength <vs [Barbarian] units> <hidden from users>", "[+33]% Strength <vs [City-States]> <hidden from users>"
+        ],
+        "policies": [
+            {
+                "name": "Warrior Code",
+                "uniques": [
+		    "Comment [Military buildings yield an additional +1 [Culture], +1 [Production]]",
+		    "Comment [+50% [Production] when constructing Military buildings]",
+                    "[+1 Culture, +1 Production] from every [Barracks] <hidden from users>",
+		    "[+1 Culture, +1 Production] from every [Armory] <hidden from users>",
+		    "[+1 Culture, +1 Production] from every [Military Academy] <hidden from users>",
+		    "[+50]% Production when constructing [Barracks] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Armory] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Military Academy] buildings [in all cities] <hidden from users>"
+			
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Military Tradition",
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Military] units>", "[Great General] is earned [50]% faster"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "City Militia",
+                "uniques": [
+                    "[-50]% maintenance costs <for [Military] units> <in [City center] tiles>", "[+2 Happiness, +1 Production] [in all cities with a garrison]"
+                ],
+                "requires": ["Warrior Code"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "State Logistics",
+                "uniques": [
+                    "[-33]% maintenance on road & railroads", "Improves movement speed on roads"
+                ],
+                "requires": ["Professional Army"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Professional Army",
+                "uniques": [
+                    "[-33]% maintenance costs <for [Military] units>", "[+1] Unit Supply per city"
+                ],
+                "requires": ["Military Tradition"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Expansion Complete",
+                "uniques": [
+                 "[-33]% Culture cost of natural border growth [in all cities connected to capital]", "[-33]% Gold cost of acquiring tiles [in all cities connected to capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Piety",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0,
+	    "Religious": 20
+        },
+        "uniques": [
+            "Gain enough Faith for [50]% of a Great Prophet",
+	    "Only available <after founding a Pantheon>",
+            "Only available <before adopting [Rationalism]>",
+	    "Only available <when religion is enabled>",
+        ],
+        "policies": [
+            {
+                "name": "Organized Religion",
+                "uniques": [
+		    "[+1 Happiness] from all [Faith] buildings"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Monasticism",
+                "uniques": ["Gain a free [Garden] [in all cities]", "[+1 Faith] from every [Garden]"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Theocracy",
+                "uniques": ["[50]% of excess happiness converted to [Faith]"],
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Religious Orders",
+                "uniques": [
+                    "[Faith] cost of purchasing items in cities [-25]%"
+                ],
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Inquisition",
+                "uniques": ["May buy [Inquisitor] units with [Faith] [in all cities in which the majority religion is a major religion]", "Free [Inquisitor] appears"],
+                "requires": ["Monasticism", "Religious Orders"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Piety Complete",
+                "uniques": [
+                    "Gain a free [Follower] belief", "[+3 Gold, +3 Culture] [in all cities] <within [3] tiles of a [Holy site]>"]
+            }
+        ]
+    },
+    {
+        "name": "Relations",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 0,
+            "Scientific": 10,
+	    "Religious": 0
+        },
+        "uniques": [,
+                    "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory"],
+        "policies": [
+            {
+                "name": "Mercenary Opportunism",
+                "uniques": [
+                    "When defeating a [Military] unit, earn [10] Gold and recruit it <with [15]% chance>", "[Gold] cost of purchasing [Military] units [-25]%",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Machiavellianism",
+                "uniques": [
+                    "Comment [Gain an extra spy] <when espionage is enabled>", "Comment [+25% spy effectiveness in all cities] <when espionage is enabled>", "Gain an extra spy <when espionage is enabled> <hidden from users>", "[+25]% spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
+			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <when espionage is disabled> <hidden from users>", "Comment [+1 [Science], +1 [Gold] for every Remaining City-States Civilizations] <when espionage is disabled>",
+                    "[+1 Science, +1 Gold] <for every [Remaining [City-States] Civilizations]> <when espionage is disabled> <hidden from users>"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Counter Intelligence",
+                "uniques": [
+			"Comment [-25% enemy spy effectiveness in all cities] <when espionage is enabled>",
+			"Comment [+1 [Happiness] in all cities] <when espionage is disabled>",
+                    "[-25]% enemy spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
+		    "[+1 Happiness] [in all cities] <when espionage is disabled> <hidden from users>",
+		    "Comment [+50% [Production] when constructing defensive buildings]",
+		    "[+50]% Production when constructing [Walls] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Castle] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>",
+		    "[+50]% Production when constructing [Air Defense System] buildings [in all cities] <hidden from users>"
+                ],
+                "requires": ["Machiavellianism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Diplomatic Obstructionism",
+                "requires": ["Counter Intelligence", "Resource Contracts"],
+                "uniques": [
+		    "Influence of all other civilizations with all city-states degrades [33]% faster", "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                ],
+                "row": 3,
+                "column": 2
+            },
+		{
+                "name": "Resource Contracts",
+                "requires": ["Machiavellianism", "Mercenary Opportunism"],
+                "uniques": [
+		    "[+50]% resources gifted by City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Relations Complete",
+                "uniques": [
+                    "Comment [Promotes all spies 1 time(s)] <when espionage is enabled>", "Comment [New spies start with 1 level(s)] <when espionage is enabled>", "Promotes all spies [1] time(s) <when espionage is enabled> <hidden from users>", "New spies start with [1] level(s) <when espionage is enabled> <hidden from users>",
+			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Comment [Reveal the locations of the cities of the City-States encountered] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <when espionage is disabled> <hidden from users>", "Reveal up to [All] [City center] within a [200] tile radius <when espionage is disabled> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Commerce",
+        "era": "Renaissance era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 20,
+            "Scientific": 20,
+	    "Religious": 10
+        },
+        "uniques": ["Comment [+1 [Production], +2 [Gold] in all cities connected to capital, in costal cities or on foreign continents]", "[+1 Production, +2 Gold] [in all cities connected to capital] <hidden from users>", "[+1 Production, +2 Gold] [in all coastal cities] <hidden from users>", "[+1 Production, +2 Gold] [in all cities] <on foreign continents> <hidden from users>"],
+        "policies": [
+            {
+                "name": "Mercantilism",
+                "uniques": [
+                    "[+1 Happiness] [in all cities connected to capital]",
+		    "[+1 Science] from all [Gold] buildings"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Free Trade",
+                "uniques": [
+                    "Retain [67]% of the happiness from a luxury after the last copy has been traded away"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Protectionism",
+                "uniques": ["[+2 Gold] from every [Luxury resource]", "[+1 Gold] from every [Trading post]"],
+                "requires": ["Mercantilism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Free Market",
+                "uniques": ["[+1] Happiness from each type of luxury resource"],
+                "requires": ["Free Trade"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Market Economy",
+                "uniques": ["[-50]% maintenance cost for buildings [in all cities]"],
+                "requires": ["Free Market"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Commerce Complete",
+                "uniques": [
+                    "[+100]% Gold from Great Merchant trade missions",
+                    "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rationalism",
+        "era": "Renaissance era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 20,
+            "Diplomatic": 20,
+            "Domination": 10,
+            "Scientific": 30,
+	    "Religious": 0
+        },
+        "uniques": [
+            "[+1 Culture] from every [Artist]", "[+1 Gold] from every [Merchant]", "[+1 Science] from every [Scientist]", "[+1 Production] from every [Engineer]",
+            "Only available <before adopting [Piety]>"],
+        "policies": [
+            {
+                "name": "Secularism",
+                "uniques": [
+                "Sell [Faith] buildings [in all cities]", "[{non-air} {Military}] units gain the [Secularism] promotion"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Humanism",
+                "uniques": [
+                    "[+1 Happiness] from all [Science] buildings"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Free Thought",
+                "uniques": [
+                    "[+33]% Great Person generation [in all cities]", "[+3 Culture, +3 Science] from every [National Wonder]", 
+                ],
+                "requires": ["Secularism"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Sovereignty",
+                "uniques": ["[50]% of excess happiness converted to [Culture]"],
+                "requires": ["Humanism"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Scientific Revolution",
+                "uniques": ["[+20]% [Science] [in all cities] <during a Golden Age>", "Empire enters golden age"],
+                "requires": ["Free Thought"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Rationalism Complete",
+                "uniques": [
+                    "[1] Free Technologies",
+                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Individualism",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 30,
+            "Cultural": 30,
+            "Diplomatic": 20,
+            "Domination": 20,
+            "Scientific": 30,
+	    "Religious": 20
+        },
+        "uniques": [
+            "[-15]% Culture cost of adopting new Policies",
+            "Only available <before adopting [Nationalism]>",
+            "Only available <before adopting [Internationalism]>"
+        ],
+        "policies": [
+            {
+                "name": "Constitution",
+                "uniques": ["[+2 Culture] per [1] social policies adopted"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Universal Suffrage",
+                "uniques": ["[-50]% Food consumption by specialists [in all cities]"],
+		"requires": ["Constitution", "Civil Society"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Civil Society",
+                "uniques": [
+                    "[+1 Happiness] per [1] social policies adopted"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Free Speech",
+                "uniques": ["[+1 Culture] per [4] population [in all cities]"],
+                "requires": ["Constitution"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Democracy",
+                "uniques": [
+                    "[Faith] cost of purchasing [Great Person] units [-33]%", "Free Great Person"
+                ],
+                "requires": ["Universal Suffrage", "Free Speech"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Individualism Complete",
+                "uniques": [
+                    "[+100]% Yield from every [Great Improvement] <during a Golden Age>",
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nationalism",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 50,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 30,
+            "Scientific": 20,
+	    "Religious": 20
+        },
+        "uniques": [
+            "[+15]% Strength <for [{Wounded} {Military}] units>",
+            "Only available <before adopting [Internationalism]>",
+            "Only available <before adopting [Individualism]>"
+        ],
+        "policies": [
+            {
+                "name": "Populism",
+                "uniques": [
+		    "[-10]% Unhappiness from [Population] [in all cities] <when at war>",
+		    "[+25]% growth [in all cities] <when at war>"
+		],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Militarism",
+                "uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", "Comment [+1 [Science] from all Military buildings]",
+		"[+1 Science] from every [Barracks] <hidden from users>", "[+1 Science] from every [Armory] <hidden from users>", "[+1 Science] from every [Military Academy] <hidden from users>"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Autarky",
+                "uniques": [
+                    "Quantity of strategic resources produced by the empire +[50]%",
+                    "[+2 Food] [in all cities connected to capital]"
+                ],
+                "requires": ["Populism", "Militarism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Police State",
+                "uniques": [
+		    "[+2 Happiness, +2 Production] from every [Arsenal]", "[+2 Happiness, +2 Production] from every [Military Base]", "[+2 Happiness, +2 Production] from every [Courthouse]"
+                ],
+                "requires": ["Militarism"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Total War",
+                "uniques": ["[+33]% Strength <for [Military] units> <when attacking>", "[+15]% Production when constructing [Military] units [in all cities]"],
+                "requires": ["Autarky", "Police State"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Nationalism Complete",
+                "uniques": [
+                    "Empire enters golden age <upon declaring war with a major Civilization>",
+                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Internationalism",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 50,
+            "Cultural": 20,
+            "Diplomatic": 30,
+            "Domination": 20,
+            "Scientific": 30,
+	    "Religious": 20
+        },
+        "uniques": [
+            "When declaring friendship, both parties gain a [15]% boost to great person generation",
+            "Only available <before adopting [Nationalism]>",
+            "Only available <before adopting [Individualism]>"
+        ],
+        "policies": [
+            {
+                "name": "World Expo",
+                "uniques": [
+                    "Science gained from research agreements [+50]%", "Allied City-States will occasionally gift Great People"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Foreign Aid",
+                "uniques": [
+                    "Gain [15] Influence with a [Military] gift to a City-State", "Gifts of Gold to City-States generate [25]% more Influence"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Cultural Diplomacy",
+                "uniques": [
+                    "Allied City-States provide [Culture] equal to [50]% of what they produce for themselves", "[-33]% City-State Influence degradation"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "United Front",
+                "requires": ["Diplomatic Missions"],
+                "uniques": [
+                    "Resting point for Influence with City-States is increased by [30]", "[+33]% Strength <when fighting units from a Civilization with more Cities than you> <in [Friendly Land] tiles>",
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Diplomatic Missions",
+                "requires": ["World Expo", "Foreign Aid", "Cultural Diplomacy"],
+                "uniques": [
+                    "[1] free [Diplomat] units appear", "[1] free [Diplomat] units appear <upon entering a new era>"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Internationalism Complete",
+                "uniques": [
+		     "[+100]% Golden Age length",
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+	/*
+	{
+        "name": "Revolution",
+	"era": "Ancient era",
+        "priorities": {
+            "Neutral": 30,
+            "Cultural": 30,
+            "Diplomatic": 30,
+            "Domination": 30,
+            "Scientific": 30,
+	    "Religious": 30
+        },
+        "uniques": [
+            "Only available <when below [-10] Happiness>", "Sell [Palace] buildings [in all cities]", "[+10 Happiness] from every [Palace] <for [10] turns> <on [Blitz] game speed>", "[+10 Happiness] from every [Palace] <for [15] turns> <on [Online] game speed>", "[+10 Happiness] from every [Palace] <for [20] turns> <on [Quick] game speed>", "[+10 Happiness] from every [Palace] <for [30] turns> <on [Standard] game speed>", "[+10 Happiness] from every [Palace] <for [45] turns> <on [Epic] game speed>", "[+10 Happiness] from every [Palace] <for [90] turns> <on [Marathon] game speed>", "[+10 Happiness] from every [Palace] <for [135] turns> <on [Endless] game speed>",
+                    "Remove [Tradition] and refund [75]% of its cost", "Remove [Discipline] and refund [75]% of its cost", "Remove [Monarchy] and refund [75]% of its cost", "Remove [Monumentalism] and refund [75]% of its cost", "Remove [Landed Elite] and refund [75]% of its cost", "Remove [Legalism] and refund [75]% of its cost", "Remove [Tradition Complete] and refund [75]% of its cost",
+		    "Remove [Liberty] and refund [75]% of its cost", "Remove [Collective Rule] and refund [75]% of its cost", "Remove [Meritocracy] and refund [75]% of its cost", "Remove [Republic] and refund [75]% of its cost", "Remove [Citizenship] and refund [75]% of its cost", "Remove [Representation] and refund [75]% of its cost", "Remove [Liberty Complete] and refund [75]% of its cost",
+		    "Remove [Expansion] and refund [75]% of its cost", "Remove [Warrior Code] and refund [75]% of its cost", "Remove [City Militia] and refund [75]% of its cost", "Remove [Military Tradition] and refund [75]% of its cost", "Remove [Professional Army] and refund [75]% of its cost", "Remove [State Logistics] and refund [75]% of its cost", "Remove [Expansion Complete] and refund [75]% of its cost",
+		    "Remove [Piety] and refund [75]% of its cost", "Remove [Organized Religion] and refund [75]% of its cost", "Remove [Theocracy] and refund [75]% of its cost", "Remove [Religious Orders] and refund [75]% of its cost", "Remove [Inquisition] and refund [75]% of its cost", "Remove [Monasticism] and refund [75]% of its cost", "Remove [Piety Complete] and refund [75]% of its cost",
+	    	    "Remove [Diplomacy] and refund [75]% of its cost", "Remove [Political Science] and refund [75]% of its cost", "Remove [Machiavellianism] and refund [75]% of its cost", "Remove [Counter Intelligence] and refund [75]% of its cost", "Remove [Mercenary Opportunism] and refund [75]% of its cost", "Remove [Rabblerousing] and refund [75]% of its cost", "Remove [Diplomacy Complete] and refund [75]% of its cost",
+		    "Remove [Commerce] and refund [75]% of its cost", "Remove [Mercantilism] and refund [75]% of its cost", "Remove [Protectionism] and refund [75]% of its cost", "Remove [Free Trade] and refund [75]% of its cost", "Remove [Free Market] and refund [75]% of its cost", "Remove [Market Economy] and refund [75]% of its cost", "Remove [Commerce Complete] and refund [75]% of its cost",
+		    "Remove [Rationalism] and refund [75]% of its cost", "Remove [Secularism] and refund [75]% of its cost", "Remove [Free Thought] and refund [75]% of its cost", "Remove [Scientific Revolution] and refund [75]% of its cost", "Remove [Humanism] and refund [75]% of its cost", "Remove [Sovereignty] and refund [75]% of its cost", "Remove [Rationalism Complete] and refund [75]% of its cost",
+		    "Remove [Individualism] and refund [75]% of its cost", "Remove [Constitution] and refund [75]% of its cost", "Remove [Free Speech] and refund [75]% of its cost", "Remove [Civil Society] and refund [75]% of its cost", "Remove [Universal Suffrage] and refund [75]% of its cost", "Remove [Democracy] and refund [75]% of its cost", "Remove [Individualism Complete] and refund [75]% of its cost",
+		    "Remove [Nationalism] and refund [75]% of its cost", "Remove [Populism] and refund [75]% of its cost", "Remove [Militarism] and refund [75]% of its cost", "Remove [Autarky] and refund [75]% of its cost", "Remove [Police State] and refund [75]% of its cost", "Remove [Total War] and refund [75]% of its cost", "Remove [Nationalism Complete] and refund [75]% of its cost",
+		    "Remove [Internationalism] and refund [75]% of its cost", "Remove [World Expo] and refund [75]% of its cost", "Remove [Cultural Diplomacy] and refund [75]% of its cost", "Remove [Pacifism] and refund [75]% of its cost", "Remove [Global Cooperation] and refund [75]% of its cost", "Remove [International Harmony] and refund [75]% of its cost", "Remove [Internationalism Complete] and refund [75]% of its cost"
+        ],
+	"policies": [
+            {
+                "name": "Revolution Complete",
+                "uniques": [
+                    "Only available <when below [-10] Happiness>", "Sell [Palace] buildings [in all cities]", "[+10 Happiness] from every [Palace] <for [10] turns> <on [Blitz] game speed>", "[+10 Happiness] from every [Palace] <for [15] turns> <on [Online] game speed>", "[+10 Happiness] from every [Palace] <for [20] turns> <on [Quick] game speed>", "[+10 Happiness] from every [Palace] <for [30] turns> <on [Standard] game speed>", "[+10 Happiness] from every [Palace] <for [45] turns> <on [Epic] game speed>", "[+10 Happiness] from every [Palace] <for [90] turns> <on [Marathon] game speed>", "[+10 Happiness] from every [Palace] <for [135] turns> <on [Endless] game speed>",
+                    "Remove [Tradition] and refund [75]% of its cost", "Remove [Discipline] and refund [75]% of its cost", "Remove [Monarchy] and refund [75]% of its cost", "Remove [Monumentalism] and refund [75]% of its cost", "Remove [Landed Elite] and refund [75]% of its cost", "Remove [Legalism] and refund [75]% of its cost", "Remove [Tradition Complete] and refund [75]% of its cost",
+		    "Remove [Liberty] and refund [75]% of its cost", "Remove [Collective Rule] and refund [75]% of its cost", "Remove [Meritocracy] and refund [75]% of its cost", "Remove [Republic] and refund [75]% of its cost", "Remove [Citizenship] and refund [75]% of its cost", "Remove [Representation] and refund [75]% of its cost", "Remove [Liberty Complete] and refund [75]% of its cost",
+		    "Remove [Expansion] and refund [75]% of its cost", "Remove [Warrior Code] and refund [75]% of its cost", "Remove [City Militia] and refund [75]% of its cost", "Remove [Military Tradition] and refund [75]% of its cost", "Remove [Professional Army] and refund [75]% of its cost", "Remove [State Logistics] and refund [75]% of its cost", "Remove [Expansion Complete] and refund [75]% of its cost",
+		    "Remove [Piety] and refund [75]% of its cost", "Remove [Organized Religion] and refund [75]% of its cost", "Remove [Theocracy] and refund [75]% of its cost", "Remove [Religious Orders] and refund [75]% of its cost", "Remove [Inquisition] and refund [75]% of its cost", "Remove [Monasticism] and refund [75]% of its cost", "Remove [Piety Complete] and refund [75]% of its cost",
+	    	    "Remove [Diplomacy] and refund [75]% of its cost", "Remove [Political Science] and refund [75]% of its cost", "Remove [Machiavellianism] and refund [75]% of its cost", "Remove [Counter Intelligence] and refund [75]% of its cost", "Remove [Mercenary Opportunism] and refund [75]% of its cost", "Remove [Rabblerousing] and refund [75]% of its cost", "Remove [Diplomacy Complete] and refund [75]% of its cost",
+		    "Remove [Commerce] and refund [75]% of its cost", "Remove [Mercantilism] and refund [75]% of its cost", "Remove [Protectionism] and refund [75]% of its cost", "Remove [Free Trade] and refund [75]% of its cost", "Remove [Free Market] and refund [75]% of its cost", "Remove [Market Economy] and refund [75]% of its cost", "Remove [Commerce Complete] and refund [75]% of its cost",
+		    "Remove [Rationalism] and refund [75]% of its cost", "Remove [Secularism] and refund [75]% of its cost", "Remove [Free Thought] and refund [75]% of its cost", "Remove [Scientific Revolution] and refund [75]% of its cost", "Remove [Humanism] and refund [75]% of its cost", "Remove [Sovereignty] and refund [75]% of its cost", "Remove [Rationalism Complete] and refund [75]% of its cost",
+		    "Remove [Individualism] and refund [75]% of its cost", "Remove [Constitution] and refund [75]% of its cost", "Remove [Free Speech] and refund [75]% of its cost", "Remove [Civil Society] and refund [75]% of its cost", "Remove [Universal Suffrage] and refund [75]% of its cost", "Remove [Democracy] and refund [75]% of its cost", "Remove [Individualism Complete] and refund [75]% of its cost",
+		    "Remove [Nationalism] and refund [75]% of its cost", "Remove [Populism] and refund [75]% of its cost", "Remove [Militarism] and refund [75]% of its cost", "Remove [Autarky] and refund [75]% of its cost", "Remove [Police State] and refund [75]% of its cost", "Remove [Total War] and refund [75]% of its cost", "Remove [Nationalism Complete] and refund [75]% of its cost",
+		    "Remove [Internationalism] and refund [75]% of its cost", "Remove [World Expo] and refund [75]% of its cost", "Remove [Cultural Diplomacy] and refund [75]% of its cost", "Remove [Pacifism] and refund [75]% of its cost", "Remove [Global Cooperation] and refund [75]% of its cost", "Remove [International Harmony] and refund [75]% of its cost", "Remove [Internationalism Complete] and refund [75]% of its cost"
+                ],
+            },
+        ],
+    },
+	*/
+]

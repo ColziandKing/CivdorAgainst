@@ -1,0 +1,486 @@
+[
+	{
+		"name": "Farm",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Cannot be built on [Hill] tiles", "Can also be built on tiles adjacent to fresh water", "Improvement",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+13 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Archery",
+		"uniques": ["Improvement", "Unavailable <in [Jungle] tiles> <before discovering [Banking]>", "[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+13 Gold]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["Improvement", "[+1 Production] <after discovering [Steam Power]>", "Pillaging this improvement yields approximately [+13 Gold]", "Improves [Amber] resource in this tile",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [1] [Gems] <in [Gems] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Silver] <in [Silver] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Copper] <in [Copper] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Salt] <in [Salt] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [1] [Amber] <in [Amber] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Gold Ore] <in [Gold Ore] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		"Provides [1] [Pollution] <in [Coal] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Aluminum] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Uranium] tiles> <hidden from users>"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Flood plains","Forest","Jungle"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Currency",
+		"uniques": ["Improvement", "[+1 Gold] for each adjacent [Luxury resource]", "Cannot be built on [Resource] tiles", "Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+18 Gold]", "Will not be replaced by automated units <hidden from users>"],
+		"shortcutKey": "T"
+	},
+
+	// Resource-specific
+	{
+		"name": "Camp",
+		"type": "Improvement",
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": ["Improvement", "[+1 Food] <after discovering [Fertilizer]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+13 Gold]",
+		            "Provides [1] [Furs] <in [Furs] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Truffles] <in [Truffles] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Gain control over [all] tiles in a [1]-tile radius <for [Cree] Civilizations> <hidden from users>"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Oil well",
+		"type": "Improvement",
+		"production": 1,
+		"gold": 3,
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"uniques": ["Improvement", "Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+21 Gold]",
+		            "Provides [2] [Oil] <in [Oil] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Pollution] <hidden from users>"],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"type": "Improvement",
+		"production": 1,
+		"gold": 3,
+		"techRequired": "Refrigeration",
+		"uniques": ["Improvement", "Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+21 Gold]", "Provides [1] [Pollution] <hidden from users>", "Unavailable <in [Forest] tiles> <for [Celts] Civilizations> <hidden from users>", "Unavailable <in [Jungle] tiles> <for [Celts] Civilizations> <hidden from users>"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Pasture",
+		"type": "Improvement",
+		"turnsToBuild": 8,
+		"food": 1,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["Improvement", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+13 Gold]",
+			    "Provides [2] [Horses] <in [Horses] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Gain control over [all] tiles in a [1]-tile radius <for [Cree] Civilizations> <hidden from users>"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"type": "Improvement",
+		"turnsToBuild": 6,
+		"food": 1,
+		"techRequired": "Calendar",
+		"uniques": ["Improvement", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+13 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry",
+		"type": "Improvement",
+		"turnsToBuild": 8,
+		"production": 1,
+		"techRequired": "Masonry",
+		"uniques": ["Improvement", "[+1 Production] <after discovering [Steam Power]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+13 Gold]",
+		            "Provides [1] [Obsidian] <in [Obsidian] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Marble] <in [Marble] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>"],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Fishing Boats",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": ["Improvement", "[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+13 Gold]"],
+		"shortcutKey": "F"
+	},
+
+	// Military improvement
+	{
+		"name": "Fort",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": ["Improvement", "Can be built outside your borders", "Gives a defensive bonus of [50]%", "Tile provides yield without assigned population", "Unpillagable", "Will not be replaced by automated units <hidden from users>"],
+		"shortcutKey": "O"
+	},
+	
+	// Transportation
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 6,
+		"techRequired": "Steam Power",
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
+	},
+
+	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Archery",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"techRequired": "Bronze Working",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		// Has no tech requirements as it can always be built
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 5,
+		"techRequired": "Fermentation",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+        {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
+
+
+
+	// Great Person improvements
+	{
+		"name": "Academy",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 1,
+		"uniques": ["Improvement", "Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+55 Science]", "Will not be replaced by automated units", "Tile provides yield without assigned population",
+			    "Comment [+1 [Science] for each past era]",
+			    "[+1 Science] <during the [Ancient era]> <hidden from users>",
+			    "[+2 Science] <during the [Classical era]> <hidden from users>",
+			    "[+3 Science] <during the [Medieval era]> <hidden from users>",
+                            "[+4 Science] <during the [Renaissance era]> <hidden from users>",
+                            "[+5 Science] <during the [Industrial era]> <hidden from users>",
+                            "[+6 Science] <during the [Modern era]> <hidden from users>",
+			    "[+7 Science] <during the [Atomic era]> <hidden from users>",
+			    "[+8 Science] <during the [Information era]> <hidden from users>",
+			    "[+9 Science] <during the [Future era]> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>",
+		"Provides [1] [Pollution] <in [Coal] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Aluminum] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Oil] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Uranium] tiles> <hidden from users>"]
+	},
+	{
+		"name": "Landmark",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"uniques": ["Improvement", "Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+55 Culture]", "Will not be replaced by automated units", "Tile provides yield without assigned population",
+			    "Comment [+1 [Culture] for each past era]",
+			    "[+1 Culture] <during the [Ancient era]> <hidden from users>",
+			    "[+2 Culture] <during the [Classical era]> <hidden from users>",
+			    "[+3 Culture] <during the [Medieval era]> <hidden from users>",
+                            "[+4 Culture] <during the [Renaissance era]> <hidden from users>",
+                            "[+5 Culture] <during the [Industrial era]> <hidden from users>",
+                            "[+6 Culture] <during the [Modern era]> <hidden from users>",
+			    "[+7 Culture] <during the [Atomic era]> <hidden from users>",
+			    "[+8 Culture] <during the [Information era]> <hidden from users>",
+			    "[+9 Culture] <during the [Future era]> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>",
+		"Provides [1] [Pollution] <in [Coal] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Aluminum] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Oil] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Uranium] tiles> <hidden from users>"]
+	},
+	{
+		"name": "Manufactory",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"uniques": ["Improvement", "Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+55 Gold]", "Will not be replaced by automated units", "Tile provides yield without assigned population",
+			    "Comment [+1 [Production] for each past era]",
+			    "[+1 Production] <during the [Ancient era]> <hidden from users>",
+			    "[+2 Production] <during the [Classical era]> <hidden from users>",
+			    "[+3 Production] <during the [Medieval era]> <hidden from users>",
+                            "[+4 Production] <during the [Renaissance era]> <hidden from users>",
+                            "[+5 Production] <during the [Industrial era]> <hidden from users>",
+                            "[+6 Production] <during the [Modern era]> <hidden from users>",
+			    "[+7 Production] <during the [Atomic era]> <hidden from users>",
+			    "[+8 Production] <during the [Information era]> <hidden from users>",
+			    "[+9 Production] <during the [Future era]> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>",
+		"Provides [1] [Pollution] <in [Coal] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Aluminum] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Oil] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Uranium] tiles> <hidden from users>"]
+	},
+	{
+		"name": "Customs house",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"uniques": ["Improvement", "Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+55 Gold]", "Will not be replaced by automated units", "Tile provides yield without assigned population",
+			    "Comment [+1 [Gold] for each past era]",
+			    "[+1 Gold] <during the [Ancient era]> <hidden from users>",
+			    "[+2 Gold] <during the [Classical era]> <hidden from users>",
+			    "[+3 Gold] <during the [Medieval era]> <hidden from users>",
+                            "[+4 Gold] <during the [Renaissance era]> <hidden from users>",
+                            "[+5 Gold] <during the [Industrial era]> <hidden from users>",
+                            "[+6 Gold] <during the [Modern era]> <hidden from users>",
+			    "[+7 Gold] <during the [Atomic era]> <hidden from users>",
+			    "[+8 Gold] <during the [Information era]> <hidden from users>",
+			    "[+9 Gold] <during the [Future era]> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>",
+		"Provides [1] [Pollution] <in [Coal] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Aluminum] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Oil] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Uranium] tiles> <hidden from users>"]
+	},
+	{
+		"name": "Holy site",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 1,
+		"uniques": ["Improvement", "Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+55 Faith]", "Will not be replaced by automated units", "Tile provides yield without assigned population",
+			    "Comment [+1 [Faith] for each past era]",
+			    "[+1 Faith] <during the [Ancient era]> <hidden from users>",
+			    "[+2 Faith] <during the [Classical era]> <hidden from users>",
+			    "[+3 Faith] <during the [Medieval era]> <hidden from users>",
+                            "[+4 Faith] <during the [Renaissance era]> <hidden from users>",
+                            "[+5 Faith] <during the [Industrial era]> <hidden from users>",
+                            "[+6 Faith] <during the [Modern era]> <hidden from users>",
+			    "[+7 Faith] <during the [Atomic era]> <hidden from users>",
+			    "[+8 Faith] <during the [Information era]> <hidden from users>",
+			    "[+9 Faith] <during the [Future era]> <hidden from users>", "Gain control over [all] tiles in a [1]-tile radius <for [Ethiopia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>",
+		"Provides [1] [Pollution] <in [Coal] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Aluminum] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Oil] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Uranium] tiles> <hidden from users>"]
+	},
+	{
+		"name": "Citadel",
+		"type": "Improvement",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement", "Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [33] damage",
+			"Can be built just outside your borders", "Unpillagable",
+        	        "Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built", "Will not be replaced by automated units <hidden from users>", "Tile provides yield without assigned population",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>",
+		"Provides [1] [Pollution] <in [Coal] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Aluminum] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Oil] tiles> <hidden from users>", "Provides [1] [Pollution] <in [Uranium] tiles> <hidden from users>"
+		]
+	},
+	//Civilization unique improvements
+	{
+		"name": "Marae",
+		"type": "Improvement",
+		"uniqueTo": "Polynesia",
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 6,
+		"uniques": ["Improvement", "Can only be built on [Coastal] tiles", "Comment [+1 [Culture] per every 3 adjacent Coast tiles]", "[+1 Culture] <with [3] to [5] neighboring [Coast] tiles> <hidden from users>", "[+1 Culture] <with [6] to [6] neighboring [Coast] tiles> <hidden from users>", "[+1 Culture] <after discovering [Archaeology]>", "[+1 Gold] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+13 Gold]", "Will not be replaced by automated units <hidden from users>"],
+		"techRequired": "Sailing",
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Nubian pyramid",
+		"type": "Improvement",
+		"uniqueTo": "Nubia",
+		"terrainsCanBeBuiltOn": ["Desert", "Flood plains"],
+		"faith": 1,
+		"gold": 1,
+		"turnsToBuild": 6,
+		"uniques": ["Improvement", "[+1 Food] for each adjacent [Bonus resource]", "[+1 Production] for each adjacent [Strategic resource]", "[+1 Gold] for each adjacent [Luxury resource]", "[+1 Culture] <after discovering [Archaeology]>", "[+1 Gold] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+13 Gold]", "Cannot be built on [Resource] tiles"],
+		"techRequired": "Masonry",
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Terrace farm",
+		"type": "Improvement",
+		"uniqueTo": "Inca",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 6,
+		"uniques": ["Improvement", "Improves [Maize] resource in this tile",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Gain control over [Mountain] tiles in a [1]-tile radius",
+                        "Pillaging this improvement yields approximately [+13 Gold]"],
+		"techRequired": "Calendar",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Rice paddy",
+		"type": "Improvement",
+		"uniqueTo": "Vietnam",
+		"terrainsCanBeBuiltOn": ["Grassland"],
+		"techRequired": "Agriculture",
+		"turnsToBuild": 6,
+		"uniques": ["Improvement", "Improves [Rice] resource in this tile",
+			    "Does not need removal of [Marsh]",
+			    "[+1 Food, +1 Culture] <in [Marsh] tiles>", "[+1 Food, +1 Culture] <in [Rice] tiles>",
+			    "[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			    "[+1 Food] <after discovering [Fertilizer]>",
+                            "Pillaging this improvement yields approximately [+13 Gold]"],
+	         "shortcutKey": "F"
+	},
+	{
+		"name": "Polder",
+		"type": "Improvement",
+		"uniqueTo": "The Netherlands",
+		"food": 1,
+		"production": 1,
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Marsh"],
+		"turnsToBuild": 7,
+		"uniques": ["Improvement", "Cannot be built on [Resource] tiles", "Can only be built on [Coastal] tiles", "[+2 Food] <in [Marsh] tiles>", "[+1 Production, +1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+16 Gold]"],
+		"techRequired": "Guilds",
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Ziggurat",
+		"type": "Improvement",
+		"uniqueTo": "Sumeria",
+		"faith": 1,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Flood plains"],
+		"turnsToBuild": 8,
+		"uniques": ["Improvement", "Cannot be built on [Resource] tiles",
+			"[+1 Food] from [Fresh water] tiles",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Science] <after discovering [Philosophy]>",
+			"[+1 Culture] <after discovering [Archaeology]>",
+			"Pillaging this improvement yields approximately [+13 Gold]"],
+		"techRequired": "Calendar",
+		"shortcutKey": "Z"
+	},
+	{
+		"name": "Outback Station",
+		"type": "Improvement",
+		"uniqueTo": "Australia",
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert"],
+		"food": 1,
+		"turnsToBuild": 8,
+		"uniques": ["Improvement", "Cannot be built on [Resource] tiles",
+			"[+1 Food] for each adjacent [Pasture]",
+			"[+1 Production] for each adjacent [Pasture] <after discovering [Steam Power]>",
+			"Pillaging this improvement yields approximately [+13 Gold]"],
+		"techRequired": "Guilds",
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Hacienda",
+		"uniqueTo": "Gran Colombia",
+		"production": 1,
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains"],
+		"uniques": ["Improvement", "Cannot be built on [Resource] tiles",
+			"[+1 Food, +1 Gold] for each adjacent [Plantation]",
+			"[+1 Production] for each adjacent [Plantation] <after discovering [Steam Power]>",
+			"[+1 Food, +1 Gold] <after discovering [Replaceable Parts]>",
+			"Pillaging this improvement yields approximately [+13 Gold]"],
+		"techRequired": "Economics",
+		"shortcutKey": "H"
+	},
+	{
+		"name": "Umah",
+		"uniqueTo": "Majapahit",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"techRequired": "Sailing",
+		"uniques": ["Improvement", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "[+1 Food, +1 Faith] for each adjacent [Water resource]", "[+1 Food] <after discovering [Replaceable Parts]>", "Pillaging this improvement yields approximately [+13 Gold]", "Tile provides yield without assigned population", "Will not be replaced by automated units <hidden from users>"],
+		"shortcutKey": "R"
+	},
+	
+	// Unbuildable improvements
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Point of Interest", "[-2 Food] <in [Grassland] tiles> <in tiles without [Hill]> <hidden from users>", "[-1 Food, -1 Production] <in [Plains] tiles> <in tiles without [Hill]> <hidden from users>", "[-2 Production] <in [Hill] tiles> <hidden from users>", "Gives a defensive bonus of [15]%", "Unpillagable", "Unbuildable", "Tile provides yield without assigned population"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Tundra", "Grassland", "Plains", "Hill", "Desert"],
+		"uniques": ["Point of Interest", "Unpillagable", "Provides a random bonus when entered", "Unbuildable", "Cannot be built on [Snow] tiles <hidden from users>"] 
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Point of Interest", "Improvement", "Unpillagable", "Irremovable", "Unbuildable",
+                            "Provides [2] [Iron] <in [Iron] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [2] [Iron] <in [Iron] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Coal] <in [Coal] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Oil] <in [Oil] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Aluminum] <in [Aluminum] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [2] [Uranium] <in [Uranium] tiles> <in [Snow] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [1] [Gems] <in [Gems] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Silver] <in [Silver] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Copper] <in [Copper] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Salt] <in [Salt] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [1] [Amber] <in [Amber] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Gold Ore] <in [Gold Ore] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Furs] <in [Furs] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Truffles] <in [Truffles] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>",
+		            "Provides [1] [Obsidian] <in [Obsidian] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>", "Provides [1] [Marble] <in [Marble] tiles> <in [Tundra] tiles> <for [Russia] Civilizations> <hidden from users>"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Tundra", "Grassland", "Plains", "Hill", "Desert"],
+		"uniques": ["Point of Interest", "Unpillagable", "Unbuildable", "Cannot be built on [Snow] tiles <hidden from users>", "Gives a defensive bonus of [10]%"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]

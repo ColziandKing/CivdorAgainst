@@ -1,0 +1,419 @@
+[
+    
+///////////////////////////////////////// Pantheon beliefs ////////////////////////////////////////
+    
+    {
+        "name": "Ancestor Worship",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Monument]"]
+    },
+    {
+        "name": "Cult of Mithras",
+        "type": "Pantheon",
+        "uniques": ["[+2 Gold, +1 Faith] from every [Cattle]"]
+    },
+    {
+        "name": "Dance of the Aurora",
+        "type": "Pantheon",
+        "uniques": ["Comment [+2 [Faith], +1 [Culture] in all cities adjacent to [Tundra]]", "[+1 Culture, +2 Faith] [in all cities] <within [1] tiles of a [Tundra]> <hidden from users>"]
+    },
+    {
+        "name": "Desert Folklore",
+        "type": "Pantheon",
+        "uniques": ["Comment [+2 [Faith], +1 [Culture] in all cities adjacent to [Desert]]", "[+1 Culture, +2 Faith] [in all cities] <within [1] tiles of a [Desert]> <hidden from users>"]
+    },
+    {
+        "name": "Earth Mother",
+        "type": "Pantheon",
+        "uniques": ["Comment [+1 [Faith], +1 [Gold] from every [Salt], [Copper], [Iron]]", "[+1 Faith, +1 Gold] from every [Salt] <hidden from users>", "[+1 Faith, +1 Gold] from every [Copper] <hidden from users>", "[+1 Faith, +1 Gold] from every [Iron] <hidden from users>"]
+    },
+    {
+        "name": "Eleusinian Mysteries",
+        "type": "Pantheon",
+        "uniques": ["Comment [+1 [Food] from every [Wheat], [Grape], [Poppy]]", "[+1 Food] from every [Wheat] <hidden from users>", "[+1 Food] from every [Grape] <hidden from users>", "[+1 Food] from every [Poppy] <hidden from users>"]
+    },
+    {
+        "name": "Faith Healers",
+        "type": "Pantheon",
+        "uniques": ["[All] Units adjacent to this city heal [+33] HP per turn when healing"]
+    },
+    {
+        "name": "Fertility Rites",
+        "type": "Pantheon",
+        "uniques": ["[+15]% growth [in this city]"]
+    },
+    {
+        "name": "Goddess of Festivals",
+        "type": "Pantheon",
+        "uniques": ["Comment [+5% [Culture] in this city for every Alcohol Luxury type you own]",
+                    "[+5]% [Culture] [in this city] <with [Beer]> <hidden from users>",
+                    "[+5]% [Culture] [in this city] <with [Wine]> <hidden from users>",
+                    "[+5]% [Culture] [in this city] <with [Rum]> <hidden from users>",
+                    "[+5]% [Culture] [in this city] <with [Whisky]> <hidden from users>",
+                    "[+5]% [Culture] [in this city] <with [Vodka]> <hidden from users>",
+                    "[+5]% [Culture] [in this city] <with [Cognac]> <hidden from users>"]
+    },
+    {
+        "name": "Goddess of Love",
+        "type": "Pantheon",
+        "uniques": ["[-10]% Unhappiness from [Population] [in this city]"]
+    },
+    {
+        "name": "Goddess of Protection",
+        "type": "Pantheon",
+        "uniques": ["[+33]% Strength for cities <when attacking>"]
+    },
+    {
+        "name": "Goddess of the Hunt",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Camp]"]
+    },
+    {
+        "name": "God of Craftsman",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production, +1 Gold] from every [Strategic resource]"]
+    },
+    {
+        "name": "God of the Open Sky",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture]"]
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+    },
+    {
+        "name": "God of War",
+        "type": "Pantheon",
+        "uniques": ["New [Military] units start with [15] XP [in this city]"]
+    },
+    {
+        "name": "Messenger of the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+2 Science] [in all cities connected to capital]"]
+    },
+    {
+        "name": "Monument to the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+10]% Production when constructing [All] wonders [in cities following this religion]", "[+1 Faith] from every [Wonder]"]
+    },
+    {
+        "name": "Nature Shamans",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Rare feature]"]
+    },
+    {
+        "name": "One with Nature",
+        "type": "Pantheon",
+        "uniques": ["Comment [+1 [Faith] from every Unimproved Resources]", "[+1 Faith] from [Resource] tiles [in this city] <hidden from users>", "[-1 Faith] from [Improvement] tiles [in this city] <in [Resource] tiles> <hidden from users>", "[+2 Faith] from every [Natural Wonder]"]
+    },
+    {
+        "name": "Oracles of the Mountains",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Mountain]"]
+    },
+    {
+        "name": "Oral Tradition",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Plantation]"]
+    },
+    {
+        "name": "Religious Idols",
+        "type": "Pantheon",
+        "uniques": ["Comment [+1 [Culture], +1 [Faith] from every [Gold Ore], [Silver] and [Gems]]", "[+1 Culture] from every [Gold Ore] <hidden from users>", "[+1 Culture] from every [Silver] <hidden from users>", "[+1 Culture] from every [Gems] <hidden from users>", "[+1 Faith] from every [Gold Ore] <hidden from users>", "[+1 Faith] from every [Silver] <hidden from users>", "[+1 Faith] from every [Gems] <hidden from users>"]
+    },
+     {
+        "name": "Ritual Drinks",
+        "type": "Pantheon",
+        "uniques": ["Comment [+1 [Culture], +1 [Faith] from every [Tea], [Coffee] and [Cocoa]]", "[+1 Culture] from every [Tea] <hidden from users>", "[+1 Culture] from every [Coffee] <hidden from users>", "[+1 Culture] from every [Cocoa] <hidden from users>", "[+1 Faith] from every [Tea] <hidden from users>", "[+1 Faith] from every [Coffee] <hidden from users>", "[+1 Faith] from every [Cocoa] <hidden from users>"]
+     },
+    {
+        "name": "Sacred Path",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Jungle]"]
+    },
+    {
+        "name": "Sacred Waters",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] in cities on [Fresh Water] tiles"]
+    },
+    {
+        "name": "Stone Circles",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith, +1 Production] from every [Stone]"]
+    },
+
+    ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+
+    {
+        "name": "Asceticism",
+        "type": "Founder",
+        "uniques": ["Comment [+1 [Happiness], +1 [Faith] from specialists, but Luxuries offer -1 [Happiness] than usual]", "[-1] Happiness from each type of luxury resource <hidden from users>", "[+1 Happiness, +1 Faith] from every specialist [in cities following this religion] <hidden from users>",
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Ceremonial Burial",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] for each global city following this religion", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Church Property",
+        "type": "Founder",
+        "uniques": ["[+2 Gold] for each global city following this religion", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Divine Leadership",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness, +1 Gold] from every [2] global followers [in capital]", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Holy Patronage",
+        "type": "Founder",
+        "uniques": ["Gifts of Gold to City-States generate [25]% more Influence", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Initiation Rites",
+        "type": "Founder",
+        "uniques": ["[+100 Faith] when a city adopts this religion for the first time <(modified by game speed)>", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Interfaith Dialogue",
+        "type": "Founder",
+        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Lay Ministry",
+        "type": "Founder",
+        "uniques": ["[+1 Culture, +1 Science, +1 Faith] for each global city following this religion", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Papal Primacy",
+        "type": "Founder",
+        "uniques": ["Resting point for Influence with City-States following this religion [+15]", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Peace Loving",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] from every [4] global followers [in this city] <when not at war>", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Pilgrimage",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] for each global city following this religion", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Religious Expeditions",
+        "type": "Founder",
+        "uniques": ["Comment [+1 Movement and Sight for religious units]",
+                    "[+1] Movement <for [Religious Unit] units> <hidden from users>", "[+1] Sight <for [Religious Unit] units> <hidden from users>", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "Tithe",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] from every [4] global followers [in cities following this religion]", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    {
+        "name": "World Church",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] from every [4] global followers [in cities following this religion]", 
+                    "[+1 Culture] for each global city following this religion <for [Byzantium] Civilizations> <hidden from users>"]
+    },
+    
+///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
+
+     {
+        "name": "Choral Music",
+        "type": "Follower",
+        "uniques": ["[+1 Culture] from all [Faith] buildings"]
+    },
+    {
+        "name": "Divine inspiration",
+        "type": "Follower",
+        "uniques": ["[+2 Science] from every [Wonder]"]
+    },
+    {
+        "name": "Divine Spark",
+        "type": "Follower",
+        "uniques": ["[+33]% Great Person generation [in this city]"]
+    },
+    {
+        "name": "Feed the World",
+        "type": "Follower",
+        "uniques": ["[+1 Food] from all [Faith] buildings"]
+    },
+    {
+        "name": "Guruship",
+        "type": "Follower",
+        "uniques": ["[+2 Culture, +1 Happiness] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+    },
+    {
+        "name": "Holy Warriors",
+        "type": "Follower",
+        "uniques": ["Comment [May buy Military Land units with [Faith] in cities following this religion before the Industrial era]", "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]> <hidden from users>"]
+    },
+    {
+        "name": "Jesuit Education",
+        "type": "Follower",
+        "uniques": ["Comment [May buy [Library], [University], [Public School] with [Faith] in cities following this religion]", "May buy [Library] buildings with [Faith] for [2] times their normal Production cost <hidden from users>", "May buy [University] buildings with [Faith] for [2] times their normal Production cost <hidden from users>", "May buy [Public School] buildings with [Faith] for [2] times their normal Production cost <hidden from users>"]
+    },
+    {
+        "name": "Liturgical Drama",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from all [Culture] buildings <in cities with at least [6] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Peace Gardens",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness, +1 Culture] from every [Garden]"]
+    },
+    {
+        "name": "Religious Art",
+        "type": "Follower",
+        "uniques": ["Comment [May buy [Monument], [Amphitheater], [Opera House] with [Faith] in cities following this religion]", "May buy [Monument] buildings with [Faith] for [2] times their normal Production cost <hidden from users>", "May buy [Amphitheater] buildings with [Faith] for [2] times their normal Production cost <hidden from users>", "May buy [Opera House] buildings with [Faith] for [2] times their normal Production cost <hidden from users>"]
+    },
+    {
+        "name": "Religious Center",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from all [Faith] buildings <in cities with at least [6] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [10]%"]
+    },
+    {
+        "name": "Religious Teetotality",
+        "type": "Follower",
+        "uniques": ["Comment [+5% [Faith] in this city for every Alcohol Luxury type you don't own]",
+                    "[+5]% [Faith] [in this city] <without [Beer]> <hidden from users>",
+                    "[+5]% [Faith] [in this city] <without [Wine]> <hidden from users>",
+                    "[+5]% [Faith] [in this city] <without [Rum]> <hidden from users>",
+                    "[+5]% [Faith] [in this city] <without [Whisky]> <hidden from users>",
+                    "[+5]% [Faith] [in this city] <without [Vodka]> <hidden from users>",
+                    "[+5]% [Faith] [in this city] <without [Cognac]> <hidden from users>"]
+    },
+    {
+        "name": "Swords into Ploughshares",
+        "type": "Follower",
+        "uniques": ["[+10]% [Food] [in this city] <when not at war>"]
+    },
+    {
+        "name": "Theological Schools",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from all [Science] buildings <in cities with at least [6] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Cathedrals",
+        "type": "Follower",
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mosques",
+        "type": "Follower",
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Pagodas",
+        "type": "Follower",
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Stupas",
+        "type": "Follower",
+        "uniques": ["May buy [Stupa] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Wats",
+        "type": "Follower",
+        "uniques": ["May buy [Wat] buildings with [Faith] [in cities following this religion]"]
+    },
+    
+////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+
+    {
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        // ToDo: Should only be friendly territory of cities that follow this religion
+    },
+    {
+        "name": "Doctrinal Esoterism",
+        "type": "Enhancer",
+        "uniques": ["[-25]% enemy spy effectiveness [in all cities]", "[+1 Faith, +1 Science] [in this city]"]
+    },
+    {
+        "name": "Holy Alliance",
+        "type": "Enhancer",
+        "uniques": ["Comment [Gain 150 [Gold] and [Faith] upon declaring friendship or upon declaring a defensive pact (modified by game speed)]", "Gain [150] [Gold] <upon declaring friendship> <(modified by game speed)> <hidden from users>", "Gain [150] [Gold] <upon declaring a defensive pact> <(modified by game speed)> <hidden from users>", "Gain [150] [Faith] <upon declaring friendship> <(modified by game speed)> <hidden from users>", "Gain [150] [Faith] <upon declaring a defensive pact> <(modified by game speed)> <hidden from users>"]
+    },
+    {
+        "name": "Holy Order",
+        "type": "Enhancer",
+        "uniques": ["Comment [-33% [Faith] cost of purchasing [Missionary], [Inquisitor]]", "[Faith] cost of purchasing [Missionary] units [-33]% <hidden from users>", "[Faith] cost of purchasing [Inquisitor] units [-33]% <hidden from users>"]
+    },
+    {
+        "name": "Inquisition Tribunals",
+        "type": "Enhancer",
+        "uniques": ["Free [Inquisitor] appears <upon constructing [Courthouse]>", "[+2 Faith] from every [Courthouse]"]
+    },
+    {
+        "name": "Itinerant Preachers",
+        "type": "Enhancer",
+        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+    },
+    {
+        "name": "Just War",
+        "type": "Enhancer",
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+        // ToDo: Should only be enemy territory of cities that follow this religion
+    },
+    {
+        "name": "Messiah",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+    },
+    {
+        "name": "Missionary Zeal",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+    },
+    {
+        "name": "Religious Settlements",
+        "type": "Enhancer",
+        "uniques": ["Comment [May buy [Worker], [Settler] with [Faith] in cities following this religion before the Industrial era]", "May buy [Settler] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]> <hidden from users>", "May buy [Worker] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]> <hidden from users>"]
+    },
+    {
+        "name": "Religious Texts",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Natural religion spread [in all cities]", "[+25]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+    },
+    {
+        "name": "Religious Unity",
+        "type": "Enhancer",
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+    },
+    {
+        "name": "Reliquary",
+        "type": "Enhancer",
+        "uniques": ["Gain [+100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+    },
+    {
+        "name": "Sacred Landmarks",
+        "type": "Enhancer",
+        "uniques": ["[+1 Faith] from every [Land] <within [1] tiles of a [Great Improvement]>", "[-1 Faith] from every [Great Improvement] <hidden from users>"]
+    },
+]
+

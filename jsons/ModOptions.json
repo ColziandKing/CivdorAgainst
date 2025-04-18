@@ -1,0 +1,39 @@
+{"isBaseRuleset":true,
+  "lastUpdated":"2023-08-31T13:59:11Z",
+  "modUrl":"https://github.com/A1y0sh4/The-Great-Unciv-Rework",
+  "defaultBranch":"main",
+  "author":"A1y0sh4",
+  "modSize":2243,
+  "topics":["mod","unciv","unciv-mod","unciv-mod-fun","unciv-mod-rulesets"],
+  
+  "uniques": [
+        "Allow City States to spawn with additional units",
+        "Can trade civilization introductions for [100] Gold",
+        "Allow raze capital",
+        "Allow raze holy city" 
+  ],
+    
+  "constants":
+  {
+    "naturalWonderCountAddedConstant": 3,
+    "riverCountMultiplier": 0.04142,
+    "cityStrengthFromGarrison": 0.5,
+    "maxSpyRank": 6,
+    "spyRankSkillPercentBonus": 25,
+    "minimumWarDuration": 6,
+    "religionLimitBase": 1,
+    "religionLimitMultiplier": 0.67,
+    "pantheonBase": 20,
+    "pantheonGrowth": -1,
+    "ancientRuinCountMultiplier": 0.04142,
+    "minRiverLength": 3,
+    "maxRiverLength": 21,
+    "baseTurnsUntilRevolt": 6,
+    "cityStateElectionTurns": 12,
+    "unitSupplyPerPopulation": 0.1,
+    "cityStrengthPerPop": 0.25,
+    "cityStrengthFromTechsMultiplier": 5,
+    "cityStrengthFromTechsExponent": 2.764,
+    "unitUpgradeCost":{"base":20,"perProduction":1,"eraMultiplier":0.334,"exponent":1,"roundTo":5}
+  }
+}
