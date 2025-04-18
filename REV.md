@@ -1,4 +1,41 @@
 
+	
+		"isWonder": true,
+{
+		"name": "Empire Atrium",
+		"isWonder": true,
+		"happiness": 2,
+		"production": 3,
+		"science": 2,
+		"gold": 2,
+		"culture": 2,
+		"faith": 2,
+		"cityStrength": 25,
+		"uniqueTo": "Colziand",
+		"requiredTech": "Metal Casting"
+		"uniques": [
+            		"Free Technology","Only available <in cities with a [Kingdom Hall]>"
+		],
+		"quote": "'Our expanse is going further beyond the horizon skies of fate.' - Colziand King" 
+	},
+	{
+		"name": "Domain Amplitude",
+		"isWonder": true,
+		"happiness": 2,
+		"production": 2,
+		"science": 3,
+		"gold": 3,
+		"culture": 3,
+		"faith": 3,
+		"cityStrength": 25,
+		"greatPersonPoints": {"Great Scientist": 3, "Great General": 3, "Great Engineer": 3, "Great Artist": 3, "Great Merchant": 3, "Great Prophet": 3},
+		"uniqueTo": "Colziand",
+		"requiredTech": "Steel"
+		"uniques": [
+			"Free Social Policy","Free Technology","Only available <in cities with a [Empire Atrium]>"
+		],
+		"quote": "'Long it has started and now it still continues, our Lord leads us.' - Colziand King"
+	},
 	{
 		"name": "Colziand",
 		"leaderName": "Raymond Sheen Caballero",
