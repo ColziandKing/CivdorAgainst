@@ -1,5 +1,140 @@
 
 	{
+		"name": "Colziand",
+		"leaderName": "Raymond Sheen Caballero",
+		"adjective": ["Colzians"],
+          	"startBias": ["Coast","Grassland"],
+		"preferredVictoryType": "Diplomatic",
+	  	"favoredReligion": "Christianity",
+	  
+		"startIntroPart1": "Oh Raymond! You who formed a nation of people for God to saved, glorious you are. Thanks be to the mighty Father, you've united people from different places and colors. Lastly the rule which is far beyond greater than any empire, so this empire of empire is not like any other.",
+                "startIntroPart2": "Honored kingly Colziand, the people have long admired the steady hand of governance you wield. Will you conquer all those who oppose you, or strive for peaceful relations? Quote: 'It is much more blessed to give, than to receive.' Will you once more rule the world for the Lord's will be done?",
+	  	
+		"declaringWar": "Hence, Forth!",
+		"attacked": "I'm dissapointed! Why declare destruction, is there no fun in peace and prosperity?",
+		"defeated": "Colziand is its people, me, and Him.",
+		"introduction": "Kumusta sa'inyo. O estranghero, saan ka galing?",
+		"neutralHello": "Oh greeting high above",
+		"hateHello": "You speak in pride, I don't wanna hear it",
+		"tradeRequest": "It appears that you have a golden interest of our goods",
+		"cities": ["Colziane", "Cher-Hon Rishvas", "Rekle-Esieg", "Erion Faith", "Colvian", "Caballeron", "Lead-Diah", "Davao", "Ravdon Mond", "Sabert Zhang", 
+			   "Colziantozant", "Adophant", "Coldelton", "Mega Complexcity", "Sheeno", "America"],
+		"outerColor": [255,128,0],
+		"innerColor": [255,255,0], 
+		"uniqueName": "Allied Domain Rule",
+		"uniques": [
+			"Starts with [Constitution] adopted","When defeating a [Military] unit, earn [50] Gold and recruit it <with [50]% chance>",
+			"Provides [1] [Glass]","Cannot build [Scout] units <hidden from users>","Cannot build [Archery] units <hidden from users>",
+			"May buy [Meeting House] buildings for [145] [Faith] [in cities following this religion]",
+		],
+		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
+	},
+	{
+		"name": "Great Britain",
+		"leaderName": "Edmund Blackadder",
+		"adjective": ["Brit"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "Edmund Blackadder is the single name given to a collection of fictional characters who appear in the BBC mock-historical comedy series Blackadder, each played by Rowan Atkinson. Although each series is set within a different period of British history, each character is part of the same familial dynasty and is usually called Edmund Blackadder. Each character also shares notable personality traits and characteristics throughout each incarnation. In a 2001 poll conducted by Channel 4, Edmund Blackadder was ranked third on their list of the 100 Greatest TV Characters.",
+        "startIntroPart2": "Each Blackadder is positioned in a different place in British society over each series, with the character mostly falling in social rank through history. He moves from a prince (The Black Adder) to a lord (Blackadder II), a knight/baronet (Blackadder: The Cavalier Years), a royal attendant (Blackadder the Third), a shopkeeper (Blackadder's Christmas Carol), to an army captain (Blackadder Goes Forth). Throughout each series, Blackadder is a self-serving, cynical opportunist concerned solely with increasing his own influence, status and wealth. His character is symbolized by the adder, the only venomous snake native to Great Britain, which sometimes appears in the series as a visual motif.",
+
+        "declaringWar": "They do say, that verbal insults hurt more than physical pain. They are, of course, wrong, as you will soon discover when I stick this toasting fork into your head.",
+		"attacked": "As we all know, God made man in his own image, and it would be a sad lookout for Christians around the globe if God looked anything like you.",
+		"defeated": "Leave me alone. If I wanted to talk to a vegetable, I would have bought one at the market.",
+		"introduction": "The path of my life is strewn with cowpats from the Devil's own satanic herd. You wouldn't recognise a subtle plan if it painted itself purple and danced naked on a harpsicord singing 'subtle plans are here again.",
+		"neutralHello": "Ah. Would this brilliant plan involve us climbing out of our trenches and walking very slowly towards the enemy?",
+		"hateHello": "Believe me, eternity in the company of Beelzebub and all his hellish instruments of death will be a picnic compared to five minutes with me - and THIS pencil",
+		"hateLetsHearIt": "Your brain is so minute, that if a hungry cannibal cracked your head open, there wouldn't be enough to cover a small water biscuit.",
+		"afterPeace": "There hasn't been a war run this badly since Olaf the hairy, King of all the Vikings, ordered 80,000 battle helmets with the horns on the inside.",
+    "tradeRequest": "The eyes are open, the mouth moves, but Mr Brain has long since departed, hasn't he?",
+		"hateNo": ["Sod off."],
+		"hateYes": ["Give the likes of Baldrick the vote and we'll be back to cavorting druids, death by stoning and dung for dinner."],
+    
+		"outerColor": [160, 160, 160],
+		"innerColor": [0, 0, 0],
+		"favoredReligion": "Catholicism",
+		"uniqueName": "Blackadder Dynasty & Baldrick's Cunning Plan",
+		"uniques": ["Gain a free [Castle] [in capital]",
+			"Starts with [Monarchy] adopted",
+			"[+10]% [Food] <when between [30] and [50] Happiness>",
+			"[+10]% [Faith] <when between [-10] and [-100] Happiness>"
+		],
+    
+		"cities": ["Alnwick","Liverpool","Plymouth","Birmingham","Manchester","Southampton","Bath",
+			"Dover","Brighton","Norwich","Reading","Richmond","Exeter","Cambridge","Gloucester",
+			"Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Mumbles","Leeds",
+			"Sheffield","Salisbury","Colchester","Lancaster","Blackpool","Winchester","Hull","New Zealand"],
+        "spyNames": ["Baldrick", "Percy Percy", "George", "Melchett", "Darling", "Flashheart", "Bob", "Nursie", "Queenie", "Miggins"]
+    },
+	{
+		"name": "Suzainswellia",
+		"leaderName": "Uzaine Anne Caballero",
+		"adjective": ["Swells"],
+		"startBias": ["Coast"],
+  	        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Suzerain, queen of Colziand. We are honored to be in your presence and the governor is pleased to meet you again since college and last month's meeting.",
+		"startIntroPart2": "Dear Suzerain, queen of Colziand, we are in no position to ask you but guide us and teach us the things we do not deserve, for we need you.",
+
+		"declaringWar": "Our ships will end these wages of sin!",
+		"attacked": "I want you to see now that your land will be sunk by our waves of attacks.",
+		"defeated":  "It looks like we sunked.",
+		"introduction":  "Waves as high as heavens I introduce you to our home.",
+		"neutralHello": "I wave to you.",
+		"hateHello": "May the wrath of God bash waves at your cities and flood your lands?",
+		"hateLetsHearIt": "Got a proposal?.",
+		"afterPeace": "Hey, no hard feelings. Let's not bother each other again.",
+		"tradeRequest": "I have shipments of cargo.",
+
+	        "outerColor": [114, 162, 233],
+		"innerColor": [61, 0, 109],
+
+		"uniqueName": "Naval Express",
+		"uniques": [
+			   "Starts with [Maritime Infrastructure] adopted","Provides [1] [Jewelry]","[+1 Culture] per [4] population [in all cities]",
+			"Science gained from research agreements [+25]%","When declaring friendship, both parties gain a [25]% boost to great person generation",
+		],
+		"spyNames": ["Uzaine", "Vassalia"],
+
+		"cities": ["Buenlyssia","Gabina","Nicono","Pathrica","Diwayville","Jambini","Cassia","Lanita Yella","Ceygoa","Lorea"]
+	},
+	{
+		"name": "Fullysia",
+		"leaderName": "Ullysia Ryden Gozanlithozz",
+		"adjective": ["Fullysian"],
+		"startBias": ["Grassland","Forest"],
+  	        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Feared woman with the strength like men. You Ullysia from Colziand is fierce in battles but at what cost? You do it so that it will end, war destroys each other but peace helps each other.",
+		"startIntroPart2": "See? War will once more wage, do what must be done.",
+
+		"declaringWar": "Prepare! My people are skilled for this terrains.",
+		"attacked": "You see. Your land will be covered in nature because we will ruin it.",
+		"defeated":  "Raze, puppet or annex? We will be liberated.",
+		"introduction":  "Salutations, I wanna know your kingdom too?",
+		"neutralHello": "Hello There.",
+		"hateHello": "No, I don't wanna hear it.?",
+		"hateLetsHearIt": "Strong like bark, now what?.",
+		"afterPeace": "From Colziand we voyage to new land, better leave us.",
+		"tradeRequest": "We have an offer.",
+
+	        "outerColor": [114, 0, 0],
+		"innerColor": [255,255,255],
+
+		"uniqueName": "Fullysianth Song",
+		"uniques": [
+			"[-50]% maintenance costs <for [Military] units> <in [City center] tiles>",
+				"Military Units gifted from City-States start with [+500] XP","Provides [1] [Porcelain]",
+			"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+		],
+		"spyNames": ["Ullysia"],
+		"cities": ["Reigna","Thraymond","Proviencia","Liencia","Sheenran","Nippon"]
+	},
+ 
+	{
 		"name": "Atomic Bomb",
 		"unitType": "Atomic Bomber",
 		"movement": 1,
